@@ -106,7 +106,6 @@ Partial Class USRCRTLMEMBERGIFT
         Me.BunifuLabel15 = New Bunifu.UI.WinForms.BunifuLabel()
         Me.BunifuTextBox9 = New Bunifu.UI.WinForms.BunifuTextBox()
         Me.BunifuLabel22 = New Bunifu.UI.WinForms.BunifuLabel()
-        Me.SCSCROLL = New Bunifu.UI.WinForms.BunifuVScrollBar()
         Me.BunifuLabel19 = New Bunifu.UI.WinForms.BunifuLabel()
         Me.BunifuLabel20 = New Bunifu.UI.WinForms.BunifuLabel()
         Me.BunifuTextBox8 = New Bunifu.UI.WinForms.BunifuTextBox()
@@ -168,7 +167,6 @@ Partial Class USRCRTLMEMBERGIFT
         Me.PNLMEM.Controls.Add(Me.BunifuLabel15)
         Me.PNLMEM.Controls.Add(Me.BunifuTextBox9)
         Me.PNLMEM.Controls.Add(Me.BunifuLabel22)
-        Me.PNLMEM.Controls.Add(Me.SCSCROLL)
         Me.PNLMEM.Controls.Add(Me.BunifuLabel19)
         Me.PNLMEM.Controls.Add(Me.BunifuLabel20)
         Me.PNLMEM.Controls.Add(Me.BunifuTextBox8)
@@ -854,47 +852,6 @@ Partial Class USRCRTLMEMBERGIFT
         Me.BunifuLabel22.Text = "Apporved By"
         Me.BunifuLabel22.TextAlignment = System.Drawing.ContentAlignment.TopLeft
         Me.BunifuLabel22.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
-        '
-        'SCSCROLL
-        '
-        Me.SCSCROLL.AllowCursorChanges = True
-        Me.SCSCROLL.AllowHomeEndKeysDetection = False
-        Me.SCSCROLL.AllowIncrementalClickMoves = True
-        Me.SCSCROLL.AllowMouseDownEffects = True
-        Me.SCSCROLL.AllowMouseHoverEffects = False
-        Me.SCSCROLL.AllowScrollingAnimations = True
-        Me.SCSCROLL.AllowScrollKeysDetection = True
-        Me.SCSCROLL.AllowScrollOptionsMenu = True
-        Me.SCSCROLL.AllowShrinkingOnFocusLost = False
-        Me.SCSCROLL.AutoScroll = True
-        Me.SCSCROLL.BackgroundColor = System.Drawing.Color.Transparent
-        Me.SCSCROLL.BackgroundImage = CType(resources.GetObject("SCSCROLL.BackgroundImage"), System.Drawing.Image)
-        Me.SCSCROLL.BindingContainer = Me.PNLMEM
-        Me.SCSCROLL.BorderColor = System.Drawing.Color.Silver
-        Me.SCSCROLL.BorderRadius = 10
-        Me.SCSCROLL.BorderThickness = 1
-        Me.SCSCROLL.Dock = System.Windows.Forms.DockStyle.Right
-        Me.SCSCROLL.DurationBeforeShrink = 2000
-        Me.SCSCROLL.LargeChange = 10
-        Me.SCSCROLL.Location = New System.Drawing.Point(927, 0)
-        Me.SCSCROLL.Maximum = 100
-        Me.SCSCROLL.Minimum = 0
-        Me.SCSCROLL.MinimumThumbLength = 18
-        Me.SCSCROLL.Name = "SCSCROLL"
-        Me.SCSCROLL.OnDisable.ScrollBarBorderColor = System.Drawing.Color.Silver
-        Me.SCSCROLL.OnDisable.ScrollBarColor = System.Drawing.Color.Transparent
-        Me.SCSCROLL.OnDisable.ThumbColor = System.Drawing.Color.Silver
-        Me.SCSCROLL.ScrollBarBorderColor = System.Drawing.Color.Silver
-        Me.SCSCROLL.ScrollBarColor = System.Drawing.Color.Transparent
-        Me.SCSCROLL.ShrinkSizeLimit = 3
-        Me.SCSCROLL.Size = New System.Drawing.Size(14, 571)
-        Me.SCSCROLL.SmallChange = 1
-        Me.SCSCROLL.TabIndex = 98
-        Me.SCSCROLL.ThumbColor = System.Drawing.Color.FromArgb(CType(CType(103, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.SCSCROLL.ThumbLength = 56
-        Me.SCSCROLL.ThumbMargin = 1
-        Me.SCSCROLL.ThumbStyle = Bunifu.UI.WinForms.BunifuVScrollBar.ThumbStyles.Inset
-        Me.SCSCROLL.Value = 0
         '
         'BunifuLabel19
         '
@@ -2068,7 +2025,6 @@ Partial Class USRCRTLMEMBERGIFT
     Friend WithEvents TXTPASS As Bunifu.UI.WinForms.BunifuTextBox
     Friend WithEvents TXTUSN As Bunifu.UI.WinForms.BunifuTextBox
     Friend WithEvents LBLDASHBOARD As Bunifu.UI.WinForms.BunifuLabel
-    Friend WithEvents SCSCROLL As Bunifu.UI.WinForms.BunifuVScrollBar
     Friend WithEvents BunifuLabel14 As Bunifu.UI.WinForms.BunifuLabel
     Friend WithEvents BunifuLabel15 As Bunifu.UI.WinForms.BunifuLabel
     Friend WithEvents BunifuTextBox9 As Bunifu.UI.WinForms.BunifuTextBox

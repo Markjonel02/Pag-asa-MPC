@@ -42,10 +42,14 @@ Partial Class USRCRTLDASHBOARD
         Me.PCRICE = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         Me.PCLOAN = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         Me.PCMEM = New Guna.UI2.WinForms.Guna2CirclePictureBox()
+        Me.BunifuLabel1 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.BunifuLabel2 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.Guna2CirclePictureBox1 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         CType(Me.PCWB, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PCRICE, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PCLOAN, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PCMEM, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Guna2CirclePictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'LBLLMEM
@@ -56,7 +60,7 @@ Partial Class USRCRTLDASHBOARD
         Me.LBLLMEM.CursorType = System.Windows.Forms.Cursors.Default
         Me.BunifuTransition.SetDecoration(Me.LBLLMEM, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None)
         Me.LBLLMEM.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LBLLMEM.Location = New System.Drawing.Point(140, 93)
+        Me.LBLLMEM.Location = New System.Drawing.Point(107, 15)
         Me.LBLLMEM.Name = "LBLLMEM"
         Me.LBLLMEM.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.LBLLMEM.Size = New System.Drawing.Size(51, 17)
@@ -73,7 +77,7 @@ Partial Class USRCRTLDASHBOARD
         Me.LBLLOAN.CursorType = System.Windows.Forms.Cursors.Default
         Me.BunifuTransition.SetDecoration(Me.LBLLOAN, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None)
         Me.LBLLOAN.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.LBLLOAN.Location = New System.Drawing.Point(368, 93)
+        Me.LBLLOAN.Location = New System.Drawing.Point(362, 93)
         Me.LBLLOAN.Name = "LBLLOAN"
         Me.LBLLOAN.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.LBLLOAN.Size = New System.Drawing.Size(29, 17)
@@ -125,7 +129,7 @@ Partial Class USRCRTLDASHBOARD
         Me.BunifuTransition.SetDecoration(Me.LBLMEMNUM, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None)
         Me.LBLMEMNUM.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LBLMEMNUM.ForeColor = System.Drawing.Color.FromArgb(CType(CType(103, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.LBLMEMNUM.Location = New System.Drawing.Point(140, 116)
+        Me.LBLMEMNUM.Location = New System.Drawing.Point(107, 38)
         Me.LBLMEMNUM.Name = "LBLMEMNUM"
         Me.LBLMEMNUM.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.LBLMEMNUM.Size = New System.Drawing.Size(22, 25)
@@ -143,7 +147,7 @@ Partial Class USRCRTLDASHBOARD
         Me.BunifuTransition.SetDecoration(Me.LBLLNUMBER, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None)
         Me.LBLLNUMBER.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LBLLNUMBER.ForeColor = System.Drawing.Color.FromArgb(CType(CType(103, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.LBLLNUMBER.Location = New System.Drawing.Point(368, 116)
+        Me.LBLLNUMBER.Location = New System.Drawing.Point(362, 116)
         Me.LBLLNUMBER.Name = "LBLLNUMBER"
         Me.LBLLNUMBER.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.LBLLNUMBER.Size = New System.Drawing.Size(44, 25)
@@ -279,7 +283,7 @@ Partial Class USRCRTLDASHBOARD
         '
         Me.BunifuTransition.SetDecoration(Me.PCLOAN, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None)
         Me.PCLOAN.Image = Global.Pag_asa_Mutti_Purpose_Cooperative.My.Resources.Resources.piggy_bank
-        Me.PCLOAN.Location = New System.Drawing.Point(330, 88)
+        Me.PCLOAN.Location = New System.Drawing.Point(324, 88)
         Me.PCLOAN.Name = "PCLOAN"
         Me.PCLOAN.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
         Me.PCLOAN.ShadowDecoration.Parent = Me.PCLOAN
@@ -292,7 +296,7 @@ Partial Class USRCRTLDASHBOARD
         '
         Me.BunifuTransition.SetDecoration(Me.PCMEM, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None)
         Me.PCMEM.Image = Global.Pag_asa_Mutti_Purpose_Cooperative.My.Resources.Resources.users_alt__2_
-        Me.PCMEM.Location = New System.Drawing.Point(105, 88)
+        Me.PCMEM.Location = New System.Drawing.Point(72, 10)
         Me.PCMEM.Name = "PCMEM"
         Me.PCMEM.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
         Me.PCMEM.ShadowDecoration.Parent = Me.PCMEM
@@ -301,11 +305,62 @@ Partial Class USRCRTLDASHBOARD
         Me.PCMEM.TabIndex = 1
         Me.PCMEM.TabStop = False
         '
+        'BunifuLabel1
+        '
+        Me.BunifuLabel1.AllowParentOverrides = False
+        Me.BunifuLabel1.AutoEllipsis = False
+        Me.BunifuLabel1.Cursor = System.Windows.Forms.Cursors.Default
+        Me.BunifuLabel1.CursorType = System.Windows.Forms.Cursors.Default
+        Me.BunifuTransition.SetDecoration(Me.BunifuLabel1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None)
+        Me.BunifuLabel1.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuLabel1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(103, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(245, Byte), Integer))
+        Me.BunifuLabel1.Location = New System.Drawing.Point(130, 116)
+        Me.BunifuLabel1.Name = "BunifuLabel1"
+        Me.BunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel1.Size = New System.Drawing.Size(44, 25)
+        Me.BunifuLabel1.TabIndex = 19
+        Me.BunifuLabel1.Text = "250k"
+        Me.BunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel1.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'BunifuLabel2
+        '
+        Me.BunifuLabel2.AllowParentOverrides = False
+        Me.BunifuLabel2.AutoEllipsis = False
+        Me.BunifuLabel2.Cursor = System.Windows.Forms.Cursors.Default
+        Me.BunifuLabel2.CursorType = System.Windows.Forms.Cursors.Default
+        Me.BunifuTransition.SetDecoration(Me.BunifuLabel2, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None)
+        Me.BunifuLabel2.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.BunifuLabel2.Location = New System.Drawing.Point(130, 93)
+        Me.BunifuLabel2.Name = "BunifuLabel2"
+        Me.BunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel2.Size = New System.Drawing.Size(51, 17)
+        Me.BunifuLabel2.TabIndex = 18
+        Me.BunifuLabel2.Text = "Member"
+        Me.BunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel2.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'Guna2CirclePictureBox1
+        '
+        Me.BunifuTransition.SetDecoration(Me.Guna2CirclePictureBox1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None)
+        Me.Guna2CirclePictureBox1.Image = Global.Pag_asa_Mutti_Purpose_Cooperative.My.Resources.Resources.users_alt__2_
+        Me.Guna2CirclePictureBox1.Location = New System.Drawing.Point(92, 88)
+        Me.Guna2CirclePictureBox1.Name = "Guna2CirclePictureBox1"
+        Me.Guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.Guna2CirclePictureBox1.ShadowDecoration.Parent = Me.Guna2CirclePictureBox1
+        Me.Guna2CirclePictureBox1.Size = New System.Drawing.Size(30, 27)
+        Me.Guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.Guna2CirclePictureBox1.TabIndex = 17
+        Me.Guna2CirclePictureBox1.TabStop = False
+        '
         'USRCRTLDASHBOARD
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(238, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Controls.Add(Me.BunifuLabel1)
+        Me.Controls.Add(Me.BunifuLabel2)
+        Me.Controls.Add(Me.Guna2CirclePictureBox1)
         Me.Controls.Add(Me.Guna2VSeparator3)
         Me.Controls.Add(Me.Guna2VSeparator2)
         Me.Controls.Add(Me.Guna2VSeparator1)
@@ -313,15 +368,12 @@ Partial Class USRCRTLDASHBOARD
         Me.Controls.Add(Me.LBLWB)
         Me.Controls.Add(Me.LBLRICEKG)
         Me.Controls.Add(Me.LBLLNUMBER)
-        Me.Controls.Add(Me.LBLMEMNUM)
         Me.Controls.Add(Me.BunifuLabel4)
         Me.Controls.Add(Me.LBLRICE)
         Me.Controls.Add(Me.LBLLOAN)
-        Me.Controls.Add(Me.LBLLMEM)
         Me.Controls.Add(Me.PCWB)
         Me.Controls.Add(Me.PCRICE)
         Me.Controls.Add(Me.PCLOAN)
-        Me.Controls.Add(Me.PCMEM)
         Me.BunifuTransition.SetDecoration(Me, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None)
         Me.Name = "USRCRTLDASHBOARD"
         Me.Size = New System.Drawing.Size(941, 571)
@@ -329,6 +381,7 @@ Partial Class USRCRTLDASHBOARD
         CType(Me.PCRICE, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PCLOAN, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PCMEM, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Guna2CirclePictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -351,4 +404,7 @@ Partial Class USRCRTLDASHBOARD
     Friend WithEvents Guna2VSeparator1 As Guna.UI2.WinForms.Guna2VSeparator
     Friend WithEvents Guna2VSeparator2 As Guna.UI2.WinForms.Guna2VSeparator
     Friend WithEvents Guna2VSeparator3 As Guna.UI2.WinForms.Guna2VSeparator
+    Friend WithEvents BunifuLabel1 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents BunifuLabel2 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents Guna2CirclePictureBox1 As Guna.UI2.WinForms.Guna2CirclePictureBox
 End Class

@@ -183,7 +183,7 @@
         oa2mr7IAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="PNLMEM.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="PNLRICE.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAA60AAAI7CAYAAAAH7X01AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAA2JSURBVHhe7dexTcNQAEVRl4xBSckoGYGSMdg0NXKMN+AT
@@ -346,19 +346,6 @@
   </data>
   <data name="BunifuLabel22.BaseStylesheet" xml:space="preserve">
     <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 11.25pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: left; }</value>
-  </data>
-  <data name="SCSCROLL.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAA4AAAI7CAYAAADcYKrmAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGlSURBVHhe7d0hbkJBFEZhJBJZiURWsgQkkiWwBHbAEroE
-        JLISXGUlsrISiaT/DfMCDeG8IpucLxl4b+YeWMIMbu12u8V+v99mfWWd26rn95wt29hVNkd1mLXJ8zxr
-        3I7qbJw1y9lb1sft2aD94qK9PpSZaWY/8z2sl2X9WjvrlflV5tfdv83afq/MTtIcKjzmZdT2/yTN+fLx
-        JENgCAyBITAEhsAQGAJDYAgMgSEwBIbAEBgCQ2AIDIEhMASGwBAYAkNgCAyBITAEhsAQGAJDYAgMgSEw
-        BIbAEBgCQ2AIDIEhMASGwBAYAkNgCAyBITAEhsAQGAJDYAgMgSEwBIbAEBgCQ2AIDIEhMASGwBAYAkNg
-        CAyBITAEhsAQGAJDYAgMgSEwBIbAEBgCQ2AIDIEhMASGwBAYAkNgCAyBITAEhsAQGAJDYAgMgSEwBIbA
-        EPzD8LSrq9Kf0IV1Qfu07fXK7Eua7wrXeVm1/V6ZrSvmN/UwzMMh39dr4R+4m83Da9tYZt3dz15B1jwz
-        dXX874vfK8hBXUp/zOpuue/WKWubmcllejD4AYhk7NZGBsi3AAAAAElFTkSuQmCC
-</value>
   </data>
   <data name="BunifuLabel19.BaseStylesheet" xml:space="preserve">
     <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 9.75pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: left; }</value>

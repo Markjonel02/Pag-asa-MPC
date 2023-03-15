@@ -24,25 +24,24 @@ Partial Class FRMMAIN
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FRMMAIN))
-        Dim StateProperties1 As Bunifu.UI.WinForms.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextBox.StateProperties()
-        Dim StateProperties2 As Bunifu.UI.WinForms.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextBox.StateProperties()
-        Dim StateProperties3 As Bunifu.UI.WinForms.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextBox.StateProperties()
-        Dim StateProperties4 As Bunifu.UI.WinForms.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextBox.StateProperties()
-        Dim BorderEdges1 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim BorderEdges2 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim BorderEdges3 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim BorderEdges4 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim BorderEdges5 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim BorderEdges6 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim BorderEdges7 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim BorderEdges8 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim BorderEdges9 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim BorderEdges10 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim BorderEdges11 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim BorderEdges12 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim BorderEdges13 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim BorderEdges14 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties5 As Bunifu.UI.WinForms.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextBox.StateProperties()
+        Dim StateProperties6 As Bunifu.UI.WinForms.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextBox.StateProperties()
+        Dim StateProperties7 As Bunifu.UI.WinForms.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextBox.StateProperties()
+        Dim StateProperties8 As Bunifu.UI.WinForms.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextBox.StateProperties()
         Dim BorderEdges15 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim BorderEdges16 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim BorderEdges17 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim BorderEdges18 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim BorderEdges19 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim BorderEdges20 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim BorderEdges21 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim BorderEdges22 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim BorderEdges23 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim BorderEdges24 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim BorderEdges25 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim BorderEdges26 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim BorderEdges27 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim BorderEdges28 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
         Me.LBLNAME = New Bunifu.UI.WinForms.BunifuLabel()
         Me.LBLUST = New Bunifu.UI.WinForms.BunifuLabel()
         Me.ExitTTP = New Bunifu.UI.WinForms.BunifuToolTip(Me.components)
@@ -51,18 +50,10 @@ Partial Class FRMMAIN
         Me.BunifuPictureBox1 = New Bunifu.UI.WinForms.BunifuPictureBox()
         Me.TXTSEARCH = New Bunifu.UI.WinForms.BunifuTextBox()
         Me.PNLMAINDOCKER = New Bunifu.UI.WinForms.BunifuPanel()
-        Me.PNLHIST = New Guna.UI2.WinForms.Guna2Panel()
-        Me.BunifuLabel5 = New Bunifu.UI.WinForms.BunifuLabel()
-        Me.BunifuLabel3 = New Bunifu.UI.WinForms.BunifuLabel()
-        Me.BTNdot = New Bunifu.UI.WinForms.BunifuImageButton()
-        Me.BunifuLabel2 = New Bunifu.UI.WinForms.BunifuLabel()
-        Me.Guna2CirclePictureBox1 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.PNLNAV = New Bunifu.UI.WinForms.BunifuPanel()
-        Me.BunifuButton5 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
-        Me.PNLMAINNAV = New Guna.UI2.WinForms.Guna2Panel()
-        Me.BunifuButton1 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
         Me.BTNREP = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
+        Me.PNLNAV = New Bunifu.UI.WinForms.BunifuPanel()
+        Me.PNLMAINNAV = New Guna.UI2.WinForms.Guna2Panel()
         Me.FLPNLLOAN = New System.Windows.Forms.FlowLayoutPanel()
         Me.BTNMEM = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
         Me.BTNCHECK = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
@@ -80,11 +71,10 @@ Partial Class FRMMAIN
         Me.PNLLOGO = New Guna.UI2.WinForms.Guna2Panel()
         Me.BunifuLabel1 = New Bunifu.UI.WinForms.BunifuLabel()
         Me.Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
+        Me.BTNABT = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
         Me.BunifuVScrollBar1 = New Bunifu.UI.WinForms.BunifuVScrollBar()
         CType(Me.BunifuPictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PNLMAINDOCKER.SuspendLayout()
-        Me.PNLHIST.SuspendLayout()
-        CType(Me.Guna2CirclePictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PNLNAV.SuspendLayout()
         Me.PNLMAINNAV.SuspendLayout()
         Me.FLPNLLOAN.SuspendLayout()
@@ -206,7 +196,7 @@ Partial Class FRMMAIN
         Me.BunifuPictureBox1.BorderRadius = 20
         Me.BunifuPictureBox1.Image = CType(resources.GetObject("BunifuPictureBox1.Image"), System.Drawing.Image)
         Me.BunifuPictureBox1.IsCircle = True
-        Me.BunifuPictureBox1.Location = New System.Drawing.Point(926, -63)
+        Me.BunifuPictureBox1.Location = New System.Drawing.Point(925, -54)
         Me.BunifuPictureBox1.Name = "BunifuPictureBox1"
         Me.BunifuPictureBox1.Size = New System.Drawing.Size(41, 41)
         Me.BunifuPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -251,26 +241,26 @@ Partial Class FRMMAIN
         Me.TXTSEARCH.Modified = False
         Me.TXTSEARCH.Multiline = False
         Me.TXTSEARCH.Name = "TXTSEARCH"
-        StateProperties1.BorderColor = System.Drawing.Color.FromArgb(CType(CType(103, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(245, Byte), Integer))
-        StateProperties1.FillColor = System.Drawing.Color.White
-        StateProperties1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(103, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(245, Byte), Integer))
-        StateProperties1.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.TXTSEARCH.OnActiveState = StateProperties1
-        StateProperties2.BorderColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
-        StateProperties2.FillColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
-        StateProperties2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
-        StateProperties2.PlaceholderForeColor = System.Drawing.Color.DarkGray
-        Me.TXTSEARCH.OnDisabledState = StateProperties2
-        StateProperties3.BorderColor = System.Drawing.Color.Empty
-        StateProperties3.FillColor = System.Drawing.Color.Empty
-        StateProperties3.ForeColor = System.Drawing.Color.Empty
-        StateProperties3.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.TXTSEARCH.OnHoverState = StateProperties3
-        StateProperties4.BorderColor = System.Drawing.Color.Silver
-        StateProperties4.FillColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(246, Byte), Integer), CType(CType(255, Byte), Integer))
-        StateProperties4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(103, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(245, Byte), Integer))
-        StateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.TXTSEARCH.OnIdleState = StateProperties4
+        StateProperties5.BorderColor = System.Drawing.Color.FromArgb(CType(CType(103, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(245, Byte), Integer))
+        StateProperties5.FillColor = System.Drawing.Color.White
+        StateProperties5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(103, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(245, Byte), Integer))
+        StateProperties5.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.TXTSEARCH.OnActiveState = StateProperties5
+        StateProperties6.BorderColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
+        StateProperties6.FillColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
+        StateProperties6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
+        StateProperties6.PlaceholderForeColor = System.Drawing.Color.DarkGray
+        Me.TXTSEARCH.OnDisabledState = StateProperties6
+        StateProperties7.BorderColor = System.Drawing.Color.Empty
+        StateProperties7.FillColor = System.Drawing.Color.Empty
+        StateProperties7.ForeColor = System.Drawing.Color.Empty
+        StateProperties7.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.TXTSEARCH.OnHoverState = StateProperties7
+        StateProperties8.BorderColor = System.Drawing.Color.Silver
+        StateProperties8.FillColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(246, Byte), Integer), CType(CType(255, Byte), Integer))
+        StateProperties8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(103, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(245, Byte), Integer))
+        StateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.TXTSEARCH.OnIdleState = StateProperties8
         Me.TXTSEARCH.Padding = New System.Windows.Forms.Padding(3)
         Me.TXTSEARCH.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.TXTSEARCH.PlaceholderForeColor = System.Drawing.Color.Silver
@@ -303,7 +293,6 @@ Partial Class FRMMAIN
         Me.PNLMAINDOCKER.BorderColor = System.Drawing.Color.Transparent
         Me.PNLMAINDOCKER.BorderRadius = 0
         Me.PNLMAINDOCKER.BorderThickness = 1
-        Me.PNLMAINDOCKER.Controls.Add(Me.PNLHIST)
         Me.PNLMAINDOCKER.Controls.Add(Me.Label1)
         Me.PNLMAINDOCKER.Location = New System.Drawing.Point(235, 58)
         Me.PNLMAINDOCKER.Name = "PNLMAINDOCKER"
@@ -313,138 +302,6 @@ Partial Class FRMMAIN
         Me.ExitTTP.SetToolTip(Me.PNLMAINDOCKER, "")
         Me.ExitTTP.SetToolTipIcon(Me.PNLMAINDOCKER, Nothing)
         Me.ExitTTP.SetToolTipTitle(Me.PNLMAINDOCKER, "")
-        '
-        'PNLHIST
-        '
-        Me.PNLHIST.BackColor = System.Drawing.Color.Transparent
-        Me.PNLHIST.BorderRadius = 10
-        Me.PNLHIST.Controls.Add(Me.BunifuLabel5)
-        Me.PNLHIST.Controls.Add(Me.BunifuLabel3)
-        Me.PNLHIST.Controls.Add(Me.BTNdot)
-        Me.PNLHIST.Controls.Add(Me.BunifuLabel2)
-        Me.PNLHIST.Controls.Add(Me.Guna2CirclePictureBox1)
-        Me.PNLHIST.FillColor = System.Drawing.Color.FromArgb(CType(CType(227, Byte), Integer), CType(CType(216, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.PNLHIST.Location = New System.Drawing.Point(372, 365)
-        Me.PNLHIST.Name = "PNLHIST"
-        Me.PNLHIST.ShadowDecoration.Parent = Me.PNLHIST
-        Me.PNLHIST.Size = New System.Drawing.Size(191, 128)
-        Me.PNLHIST.TabIndex = 1
-        Me.ExitTTP.SetToolTip(Me.PNLHIST, "")
-        Me.ExitTTP.SetToolTipIcon(Me.PNLHIST, Nothing)
-        Me.ExitTTP.SetToolTipTitle(Me.PNLHIST, "")
-        '
-        'BunifuLabel5
-        '
-        Me.BunifuLabel5.AllowParentOverrides = False
-        Me.BunifuLabel5.AutoEllipsis = False
-        Me.BunifuLabel5.AutoSize = False
-        Me.BunifuLabel5.Cursor = System.Windows.Forms.Cursors.Default
-        Me.BunifuLabel5.CursorType = System.Windows.Forms.Cursors.Default
-        Me.BunifuLabel5.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.BunifuLabel5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(103, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.BunifuLabel5.Location = New System.Drawing.Point(17, 88)
-        Me.BunifuLabel5.Name = "BunifuLabel5"
-        Me.BunifuLabel5.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.BunifuLabel5.Size = New System.Drawing.Size(156, 28)
-        Me.BunifuLabel5.TabIndex = 3
-        Me.BunifuLabel5.Text = "transaction reports"
-        Me.BunifuLabel5.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter
-        Me.BunifuLabel5.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
-        Me.ExitTTP.SetToolTip(Me.BunifuLabel5, "")
-        Me.ExitTTP.SetToolTipIcon(Me.BunifuLabel5, Nothing)
-        Me.ExitTTP.SetToolTipTitle(Me.BunifuLabel5, "")
-        '
-        'BunifuLabel3
-        '
-        Me.BunifuLabel3.AllowParentOverrides = False
-        Me.BunifuLabel3.AutoEllipsis = False
-        Me.BunifuLabel3.AutoSize = False
-        Me.BunifuLabel3.Cursor = System.Windows.Forms.Cursors.Default
-        Me.BunifuLabel3.CursorType = System.Windows.Forms.Cursors.Default
-        Me.BunifuLabel3.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.BunifuLabel3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(103, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.BunifuLabel3.Location = New System.Drawing.Point(17, 70)
-        Me.BunifuLabel3.Name = "BunifuLabel3"
-        Me.BunifuLabel3.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.BunifuLabel3.Size = New System.Drawing.Size(156, 28)
-        Me.BunifuLabel3.TabIndex = 2
-        Me.BunifuLabel3.Text = "Check your history weekly"
-        Me.BunifuLabel3.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter
-        Me.BunifuLabel3.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
-        Me.ExitTTP.SetToolTip(Me.BunifuLabel3, "")
-        Me.ExitTTP.SetToolTipIcon(Me.BunifuLabel3, Nothing)
-        Me.ExitTTP.SetToolTipTitle(Me.BunifuLabel3, "")
-        '
-        'BTNdot
-        '
-        Me.BTNdot.ActiveImage = Nothing
-        Me.BTNdot.AllowAnimations = True
-        Me.BTNdot.AllowBuffering = False
-        Me.BTNdot.AllowToggling = False
-        Me.BTNdot.AllowZooming = False
-        Me.BTNdot.AllowZoomingOnFocus = False
-        Me.BTNdot.BackColor = System.Drawing.Color.Transparent
-        Me.BTNdot.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.BTNdot.ErrorImage = CType(resources.GetObject("BTNdot.ErrorImage"), System.Drawing.Image)
-        Me.BTNdot.FadeWhenInactive = False
-        Me.BTNdot.Flip = Bunifu.UI.WinForms.BunifuImageButton.FlipOrientation.Normal
-        Me.BTNdot.Image = Global.Pag_asa_Mutti_Purpose_Cooperative.My.Resources.Resources.menu_dots_vertical
-        Me.BTNdot.ImageActive = Nothing
-        Me.BTNdot.ImageLocation = Nothing
-        Me.BTNdot.ImageMargin = 40
-        Me.BTNdot.ImageSize = New System.Drawing.Size(10, 11)
-        Me.BTNdot.ImageZoomSize = New System.Drawing.Size(50, 51)
-        Me.BTNdot.InitialImage = CType(resources.GetObject("BTNdot.InitialImage"), System.Drawing.Image)
-        Me.BTNdot.Location = New System.Drawing.Point(136, 3)
-        Me.BTNdot.Name = "BTNdot"
-        Me.BTNdot.Rotation = 0
-        Me.BTNdot.ShowActiveImage = False
-        Me.BTNdot.ShowCursorChanges = True
-        Me.BTNdot.ShowImageBorders = True
-        Me.BTNdot.ShowSizeMarkers = False
-        Me.BTNdot.Size = New System.Drawing.Size(50, 51)
-        Me.BTNdot.TabIndex = 1
-        Me.ExitTTP.SetToolTip(Me.BTNdot, "")
-        Me.ExitTTP.SetToolTipIcon(Me.BTNdot, Nothing)
-        Me.BTNdot.ToolTipText = ""
-        Me.ExitTTP.SetToolTipTitle(Me.BTNdot, "")
-        Me.BTNdot.WaitOnLoad = False
-        Me.BTNdot.Zoom = 40
-        Me.BTNdot.ZoomSpeed = 10
-        '
-        'BunifuLabel2
-        '
-        Me.BunifuLabel2.AllowParentOverrides = False
-        Me.BunifuLabel2.AutoEllipsis = False
-        Me.BunifuLabel2.Cursor = System.Windows.Forms.Cursors.Default
-        Me.BunifuLabel2.CursorType = System.Windows.Forms.Cursors.Default
-        Me.BunifuLabel2.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.BunifuLabel2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(103, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.BunifuLabel2.Location = New System.Drawing.Point(37, 50)
-        Me.BunifuLabel2.Name = "BunifuLabel2"
-        Me.BunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.BunifuLabel2.Size = New System.Drawing.Size(120, 21)
-        Me.BunifuLabel2.TabIndex = 1
-        Me.BunifuLabel2.Text = "History  avaliable"
-        Me.BunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.TopLeft
-        Me.BunifuLabel2.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
-        Me.ExitTTP.SetToolTip(Me.BunifuLabel2, "")
-        Me.ExitTTP.SetToolTipIcon(Me.BunifuLabel2, Nothing)
-        Me.ExitTTP.SetToolTipTitle(Me.BunifuLabel2, "")
-        '
-        'Guna2CirclePictureBox1
-        '
-        Me.Guna2CirclePictureBox1.Image = Global.Pag_asa_Mutti_Purpose_Cooperative.My.Resources.Resources.time_past
-        Me.Guna2CirclePictureBox1.Location = New System.Drawing.Point(20, 16)
-        Me.Guna2CirclePictureBox1.Name = "Guna2CirclePictureBox1"
-        Me.Guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Me.Guna2CirclePictureBox1.ShadowDecoration.Parent = Me.Guna2CirclePictureBox1
-        Me.Guna2CirclePictureBox1.Size = New System.Drawing.Size(30, 29)
-        Me.Guna2CirclePictureBox1.TabIndex = 1
-        Me.Guna2CirclePictureBox1.TabStop = False
-        Me.ExitTTP.SetToolTip(Me.Guna2CirclePictureBox1, "")
-        Me.ExitTTP.SetToolTipIcon(Me.Guna2CirclePictureBox1, Nothing)
-        Me.ExitTTP.SetToolTipTitle(Me.Guna2CirclePictureBox1, "")
         '
         'Label1
         '
@@ -458,233 +315,6 @@ Partial Class FRMMAIN
         Me.ExitTTP.SetToolTipIcon(Me.Label1, Nothing)
         Me.ExitTTP.SetToolTipTitle(Me.Label1, "")
         Me.Label1.Visible = False
-        '
-        'PNLNAV
-        '
-        Me.PNLNAV.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(103, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.PNLNAV.BackgroundImage = CType(resources.GetObject("PNLNAV.BackgroundImage"), System.Drawing.Image)
-        Me.PNLNAV.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PNLNAV.BorderColor = System.Drawing.Color.FromArgb(CType(CType(103, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.PNLNAV.BorderRadius = 0
-        Me.PNLNAV.BorderThickness = 0
-        Me.PNLNAV.Controls.Add(Me.BunifuButton5)
-        Me.PNLNAV.Controls.Add(Me.PNLMAINNAV)
-        Me.PNLNAV.Controls.Add(Me.PNLLOGO)
-        Me.PNLNAV.Dock = System.Windows.Forms.DockStyle.Left
-        Me.PNLNAV.Location = New System.Drawing.Point(0, 0)
-        Me.PNLNAV.Name = "PNLNAV"
-        Me.PNLNAV.ShowBorders = True
-        Me.PNLNAV.Size = New System.Drawing.Size(217, 647)
-        Me.PNLNAV.TabIndex = 0
-        Me.ExitTTP.SetToolTip(Me.PNLNAV, "")
-        Me.ExitTTP.SetToolTipIcon(Me.PNLNAV, Nothing)
-        Me.ExitTTP.SetToolTipTitle(Me.PNLNAV, "")
-        '
-        'BunifuButton5
-        '
-        Me.BunifuButton5.AllowAnimations = False
-        Me.BunifuButton5.AllowMouseEffects = True
-        Me.BunifuButton5.AllowToggling = True
-        Me.BunifuButton5.AnimationSpeed = 200
-        Me.BunifuButton5.AutoGenerateColors = False
-        Me.BunifuButton5.AutoRoundBorders = False
-        Me.BunifuButton5.AutoSizeLeftIcon = True
-        Me.BunifuButton5.AutoSizeRightIcon = True
-        Me.BunifuButton5.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuButton5.BackColor1 = System.Drawing.Color.Transparent
-        Me.BunifuButton5.BackgroundImage = CType(resources.GetObject("BunifuButton5.BackgroundImage"), System.Drawing.Image)
-        Me.BunifuButton5.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        Me.BunifuButton5.ButtonText = "Settings"
-        Me.BunifuButton5.ButtonTextMarginLeft = 0
-        Me.BunifuButton5.ColorContrastOnClick = 45
-        Me.BunifuButton5.ColorContrastOnHover = 45
-        Me.BunifuButton5.Cursor = System.Windows.Forms.Cursors.Default
-        BorderEdges1.BottomLeft = True
-        BorderEdges1.BottomRight = True
-        BorderEdges1.TopLeft = True
-        BorderEdges1.TopRight = False
-        Me.BunifuButton5.CustomizableEdges = BorderEdges1
-        Me.BunifuButton5.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.BunifuButton5.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
-        Me.BunifuButton5.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
-        Me.BunifuButton5.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
-        Me.BunifuButton5.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BunifuButton5.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
-        Me.BunifuButton5.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuButton5.ForeColor = System.Drawing.Color.White
-        Me.BunifuButton5.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.BunifuButton5.IconLeftCursor = System.Windows.Forms.Cursors.Default
-        Me.BunifuButton5.IconLeftPadding = New System.Windows.Forms.Padding(11, 3, 3, 3)
-        Me.BunifuButton5.IconMarginLeft = 11
-        Me.BunifuButton5.IconPadding = 10
-        Me.BunifuButton5.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.BunifuButton5.IconRightCursor = System.Windows.Forms.Cursors.Default
-        Me.BunifuButton5.IconRightPadding = New System.Windows.Forms.Padding(3, 3, 7, 3)
-        Me.BunifuButton5.IconSize = 25
-        Me.BunifuButton5.IdleBorderColor = System.Drawing.Color.Transparent
-        Me.BunifuButton5.IdleBorderRadius = 1
-        Me.BunifuButton5.IdleBorderThickness = 1
-        Me.BunifuButton5.IdleFillColor = System.Drawing.Color.Transparent
-        Me.BunifuButton5.IdleIconLeftImage = Global.Pag_asa_Mutti_Purpose_Cooperative.My.Resources.Resources.settings
-        Me.BunifuButton5.IdleIconRightImage = Nothing
-        Me.BunifuButton5.IndicateFocus = True
-        Me.BunifuButton5.Location = New System.Drawing.Point(0, 698)
-        Me.BunifuButton5.Name = "BunifuButton5"
-        Me.BunifuButton5.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
-        Me.BunifuButton5.OnDisabledState.BorderRadius = 1
-        Me.BunifuButton5.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        Me.BunifuButton5.OnDisabledState.BorderThickness = 1
-        Me.BunifuButton5.OnDisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
-        Me.BunifuButton5.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
-        Me.BunifuButton5.OnDisabledState.IconLeftImage = Nothing
-        Me.BunifuButton5.OnDisabledState.IconRightImage = Nothing
-        Me.BunifuButton5.onHoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(176, Byte), Integer), CType(CType(170, Byte), Integer), CType(CType(240, Byte), Integer))
-        Me.BunifuButton5.onHoverState.BorderRadius = 1
-        Me.BunifuButton5.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        Me.BunifuButton5.onHoverState.BorderThickness = 1
-        Me.BunifuButton5.onHoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(10, Byte), Integer), CType(CType(175, Byte), Integer))
-        Me.BunifuButton5.onHoverState.ForeColor = System.Drawing.Color.White
-        Me.BunifuButton5.onHoverState.IconLeftImage = Nothing
-        Me.BunifuButton5.onHoverState.IconRightImage = Nothing
-        Me.BunifuButton5.OnIdleState.BorderColor = System.Drawing.Color.Transparent
-        Me.BunifuButton5.OnIdleState.BorderRadius = 1
-        Me.BunifuButton5.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        Me.BunifuButton5.OnIdleState.BorderThickness = 1
-        Me.BunifuButton5.OnIdleState.FillColor = System.Drawing.Color.Transparent
-        Me.BunifuButton5.OnIdleState.ForeColor = System.Drawing.Color.White
-        Me.BunifuButton5.OnIdleState.IconLeftImage = Global.Pag_asa_Mutti_Purpose_Cooperative.My.Resources.Resources.settings
-        Me.BunifuButton5.OnIdleState.IconRightImage = Nothing
-        Me.BunifuButton5.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.BunifuButton5.OnPressedState.BorderRadius = 1
-        Me.BunifuButton5.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        Me.BunifuButton5.OnPressedState.BorderThickness = 1
-        Me.BunifuButton5.OnPressedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.BunifuButton5.OnPressedState.ForeColor = System.Drawing.Color.White
-        Me.BunifuButton5.OnPressedState.IconLeftImage = Nothing
-        Me.BunifuButton5.OnPressedState.IconRightImage = Nothing
-        Me.BunifuButton5.Size = New System.Drawing.Size(217, 40)
-        Me.BunifuButton5.TabIndex = 10
-        Me.BunifuButton5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.BunifuButton5.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center
-        Me.BunifuButton5.TextMarginLeft = 0
-        Me.BunifuButton5.TextPadding = New System.Windows.Forms.Padding(0)
-        Me.ExitTTP.SetToolTip(Me.BunifuButton5, "")
-        Me.ExitTTP.SetToolTipIcon(Me.BunifuButton5, Nothing)
-        Me.ExitTTP.SetToolTipTitle(Me.BunifuButton5, "")
-        Me.BunifuButton5.UseDefaultRadiusAndThickness = True
-        '
-        'PNLMAINNAV
-        '
-        Me.PNLMAINNAV.BackColor = System.Drawing.Color.FromArgb(CType(CType(103, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.PNLMAINNAV.Controls.Add(Me.BunifuButton1)
-        Me.PNLMAINNAV.Controls.Add(Me.BTNREP)
-        Me.PNLMAINNAV.Controls.Add(Me.FLPNLLOAN)
-        Me.PNLMAINNAV.Controls.Add(Me.BTNLOANTRAN)
-        Me.PNLMAINNAV.Controls.Add(Me.FLPNLLOANDROP)
-        Me.PNLMAINNAV.Controls.Add(Me.BTNLOAN)
-        Me.PNLMAINNAV.Controls.Add(Me.BTNMEMBER)
-        Me.PNLMAINNAV.Controls.Add(Me.BTNDASHBOARD)
-        Me.PNLMAINNAV.Dock = System.Windows.Forms.DockStyle.Top
-        Me.PNLMAINNAV.Location = New System.Drawing.Point(0, 131)
-        Me.PNLMAINNAV.Name = "PNLMAINNAV"
-        Me.PNLMAINNAV.ShadowDecoration.Parent = Me.PNLMAINNAV
-        Me.PNLMAINNAV.Size = New System.Drawing.Size(217, 567)
-        Me.PNLMAINNAV.TabIndex = 7
-        Me.ExitTTP.SetToolTip(Me.PNLMAINNAV, "")
-        Me.ExitTTP.SetToolTipIcon(Me.PNLMAINNAV, Nothing)
-        Me.ExitTTP.SetToolTipTitle(Me.PNLMAINNAV, "")
-        '
-        'BunifuButton1
-        '
-        Me.BunifuButton1.AllowAnimations = False
-        Me.BunifuButton1.AllowMouseEffects = True
-        Me.BunifuButton1.AllowToggling = True
-        Me.BunifuButton1.AnimationSpeed = 200
-        Me.BunifuButton1.AutoGenerateColors = False
-        Me.BunifuButton1.AutoRoundBorders = True
-        Me.BunifuButton1.AutoSizeLeftIcon = True
-        Me.BunifuButton1.AutoSizeRightIcon = True
-        Me.BunifuButton1.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuButton1.BackColor1 = System.Drawing.Color.Transparent
-        Me.BunifuButton1.BackgroundImage = CType(resources.GetObject("BunifuButton1.BackgroundImage"), System.Drawing.Image)
-        Me.BunifuButton1.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        Me.BunifuButton1.ButtonText = "Reports"
-        Me.BunifuButton1.ButtonTextMarginLeft = 0
-        Me.BunifuButton1.ColorContrastOnClick = 45
-        Me.BunifuButton1.ColorContrastOnHover = 45
-        Me.BunifuButton1.Cursor = System.Windows.Forms.Cursors.Default
-        BorderEdges2.BottomLeft = True
-        BorderEdges2.BottomRight = True
-        BorderEdges2.TopLeft = True
-        BorderEdges2.TopRight = False
-        Me.BunifuButton1.CustomizableEdges = BorderEdges2
-        Me.BunifuButton1.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.BunifuButton1.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
-        Me.BunifuButton1.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
-        Me.BunifuButton1.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
-        Me.BunifuButton1.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
-        Me.BunifuButton1.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuButton1.ForeColor = System.Drawing.Color.White
-        Me.BunifuButton1.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.BunifuButton1.IconLeftCursor = System.Windows.Forms.Cursors.Default
-        Me.BunifuButton1.IconLeftPadding = New System.Windows.Forms.Padding(11, 3, 3, 3)
-        Me.BunifuButton1.IconMarginLeft = 11
-        Me.BunifuButton1.IconPadding = 10
-        Me.BunifuButton1.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.BunifuButton1.IconRightCursor = System.Windows.Forms.Cursors.Default
-        Me.BunifuButton1.IconRightPadding = New System.Windows.Forms.Padding(3, 3, 7, 3)
-        Me.BunifuButton1.IconSize = 25
-        Me.BunifuButton1.IdleBorderColor = System.Drawing.Color.Transparent
-        Me.BunifuButton1.IdleBorderRadius = 38
-        Me.BunifuButton1.IdleBorderThickness = 1
-        Me.BunifuButton1.IdleFillColor = System.Drawing.Color.Transparent
-        Me.BunifuButton1.IdleIconLeftImage = Global.Pag_asa_Mutti_Purpose_Cooperative.My.Resources.Resources.settings
-        Me.BunifuButton1.IdleIconRightImage = Nothing
-        Me.BunifuButton1.IndicateFocus = True
-        Me.BunifuButton1.Location = New System.Drawing.Point(0, 576)
-        Me.BunifuButton1.Name = "BunifuButton1"
-        Me.BunifuButton1.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
-        Me.BunifuButton1.OnDisabledState.BorderRadius = 1
-        Me.BunifuButton1.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        Me.BunifuButton1.OnDisabledState.BorderThickness = 1
-        Me.BunifuButton1.OnDisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
-        Me.BunifuButton1.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
-        Me.BunifuButton1.OnDisabledState.IconLeftImage = Nothing
-        Me.BunifuButton1.OnDisabledState.IconRightImage = Nothing
-        Me.BunifuButton1.onHoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(176, Byte), Integer), CType(CType(170, Byte), Integer), CType(CType(240, Byte), Integer))
-        Me.BunifuButton1.onHoverState.BorderRadius = 1
-        Me.BunifuButton1.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        Me.BunifuButton1.onHoverState.BorderThickness = 1
-        Me.BunifuButton1.onHoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(10, Byte), Integer), CType(CType(175, Byte), Integer))
-        Me.BunifuButton1.onHoverState.ForeColor = System.Drawing.Color.White
-        Me.BunifuButton1.onHoverState.IconLeftImage = Nothing
-        Me.BunifuButton1.onHoverState.IconRightImage = Nothing
-        Me.BunifuButton1.OnIdleState.BorderColor = System.Drawing.Color.Transparent
-        Me.BunifuButton1.OnIdleState.BorderRadius = 1
-        Me.BunifuButton1.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        Me.BunifuButton1.OnIdleState.BorderThickness = 1
-        Me.BunifuButton1.OnIdleState.FillColor = System.Drawing.Color.Transparent
-        Me.BunifuButton1.OnIdleState.ForeColor = System.Drawing.Color.White
-        Me.BunifuButton1.OnIdleState.IconLeftImage = Global.Pag_asa_Mutti_Purpose_Cooperative.My.Resources.Resources.settings
-        Me.BunifuButton1.OnIdleState.IconRightImage = Nothing
-        Me.BunifuButton1.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.BunifuButton1.OnPressedState.BorderRadius = 1
-        Me.BunifuButton1.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        Me.BunifuButton1.OnPressedState.BorderThickness = 1
-        Me.BunifuButton1.OnPressedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.BunifuButton1.OnPressedState.ForeColor = System.Drawing.Color.White
-        Me.BunifuButton1.OnPressedState.IconLeftImage = Nothing
-        Me.BunifuButton1.OnPressedState.IconRightImage = Nothing
-        Me.BunifuButton1.Size = New System.Drawing.Size(217, 40)
-        Me.BunifuButton1.TabIndex = 9
-        Me.BunifuButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.BunifuButton1.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center
-        Me.BunifuButton1.TextMarginLeft = 0
-        Me.BunifuButton1.TextPadding = New System.Windows.Forms.Padding(0)
-        Me.ExitTTP.SetToolTip(Me.BunifuButton1, "")
-        Me.ExitTTP.SetToolTipIcon(Me.BunifuButton1, Nothing)
-        Me.ExitTTP.SetToolTipTitle(Me.BunifuButton1, "")
-        Me.BunifuButton1.UseDefaultRadiusAndThickness = True
         '
         'BTNREP
         '
@@ -705,11 +335,11 @@ Partial Class FRMMAIN
         Me.BTNREP.ColorContrastOnClick = 45
         Me.BTNREP.ColorContrastOnHover = 45
         Me.BTNREP.Cursor = System.Windows.Forms.Cursors.Default
-        BorderEdges3.BottomLeft = True
-        BorderEdges3.BottomRight = True
-        BorderEdges3.TopLeft = True
-        BorderEdges3.TopRight = False
-        Me.BTNREP.CustomizableEdges = BorderEdges3
+        BorderEdges15.BottomLeft = True
+        BorderEdges15.BottomRight = True
+        BorderEdges15.TopLeft = True
+        BorderEdges15.TopRight = False
+        Me.BTNREP.CustomizableEdges = BorderEdges15
         Me.BTNREP.DialogResult = System.Windows.Forms.DialogResult.None
         Me.BTNREP.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
         Me.BTNREP.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
@@ -734,7 +364,7 @@ Partial Class FRMMAIN
         Me.BTNREP.IdleIconLeftImage = Global.Pag_asa_Mutti_Purpose_Cooperative.My.Resources.Resources.stats
         Me.BTNREP.IdleIconRightImage = Nothing
         Me.BTNREP.IndicateFocus = True
-        Me.BTNREP.Location = New System.Drawing.Point(0, 536)
+        Me.BTNREP.Location = New System.Drawing.Point(0, 311)
         Me.BTNREP.Name = "BTNREP"
         Me.BTNREP.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
         Me.BTNREP.OnDisabledState.BorderRadius = 1
@@ -779,6 +409,46 @@ Partial Class FRMMAIN
         Me.ExitTTP.SetToolTipTitle(Me.BTNREP, "")
         Me.BTNREP.UseDefaultRadiusAndThickness = True
         '
+        'PNLNAV
+        '
+        Me.PNLNAV.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(103, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(245, Byte), Integer))
+        Me.PNLNAV.BackgroundImage = CType(resources.GetObject("PNLNAV.BackgroundImage"), System.Drawing.Image)
+        Me.PNLNAV.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PNLNAV.BorderColor = System.Drawing.Color.FromArgb(CType(CType(103, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(245, Byte), Integer))
+        Me.PNLNAV.BorderRadius = 0
+        Me.PNLNAV.BorderThickness = 0
+        Me.PNLNAV.Controls.Add(Me.PNLMAINNAV)
+        Me.PNLNAV.Controls.Add(Me.PNLLOGO)
+        Me.PNLNAV.Dock = System.Windows.Forms.DockStyle.Left
+        Me.PNLNAV.Location = New System.Drawing.Point(0, 0)
+        Me.PNLNAV.Name = "PNLNAV"
+        Me.PNLNAV.ShowBorders = True
+        Me.PNLNAV.Size = New System.Drawing.Size(217, 637)
+        Me.PNLNAV.TabIndex = 0
+        Me.ExitTTP.SetToolTip(Me.PNLNAV, "")
+        Me.ExitTTP.SetToolTipIcon(Me.PNLNAV, Nothing)
+        Me.ExitTTP.SetToolTipTitle(Me.PNLNAV, "")
+        '
+        'PNLMAINNAV
+        '
+        Me.PNLMAINNAV.BackColor = System.Drawing.Color.FromArgb(CType(CType(103, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(245, Byte), Integer))
+        Me.PNLMAINNAV.Controls.Add(Me.FLPNLLOAN)
+        Me.PNLMAINNAV.Controls.Add(Me.BTNLOANTRAN)
+        Me.PNLMAINNAV.Controls.Add(Me.BTNREP)
+        Me.PNLMAINNAV.Controls.Add(Me.FLPNLLOANDROP)
+        Me.PNLMAINNAV.Controls.Add(Me.BTNLOAN)
+        Me.PNLMAINNAV.Controls.Add(Me.BTNMEMBER)
+        Me.PNLMAINNAV.Controls.Add(Me.BTNDASHBOARD)
+        Me.PNLMAINNAV.Dock = System.Windows.Forms.DockStyle.Top
+        Me.PNLMAINNAV.Location = New System.Drawing.Point(0, 131)
+        Me.PNLMAINNAV.Name = "PNLMAINNAV"
+        Me.PNLMAINNAV.ShadowDecoration.Parent = Me.PNLMAINNAV
+        Me.PNLMAINNAV.Size = New System.Drawing.Size(217, 585)
+        Me.PNLMAINNAV.TabIndex = 7
+        Me.ExitTTP.SetToolTip(Me.PNLMAINNAV, "")
+        Me.ExitTTP.SetToolTipIcon(Me.PNLMAINNAV, Nothing)
+        Me.ExitTTP.SetToolTipTitle(Me.PNLMAINNAV, "")
+        '
         'FLPNLLOAN
         '
         Me.FLPNLLOAN.Controls.Add(Me.BTNMEM)
@@ -786,9 +456,9 @@ Partial Class FRMMAIN
         Me.FLPNLLOAN.Controls.Add(Me.BTNRICE)
         Me.FLPNLLOAN.Controls.Add(Me.BTNCASH)
         Me.FLPNLLOAN.Dock = System.Windows.Forms.DockStyle.Top
-        Me.FLPNLLOAN.Location = New System.Drawing.Point(0, 351)
+        Me.FLPNLLOAN.Location = New System.Drawing.Point(0, 391)
         Me.FLPNLLOAN.Name = "FLPNLLOAN"
-        Me.FLPNLLOAN.Size = New System.Drawing.Size(217, 185)
+        Me.FLPNLLOAN.Size = New System.Drawing.Size(217, 187)
         Me.FLPNLLOAN.TabIndex = 8
         Me.ExitTTP.SetToolTip(Me.FLPNLLOAN, "")
         Me.ExitTTP.SetToolTipIcon(Me.FLPNLLOAN, Nothing)
@@ -813,11 +483,11 @@ Partial Class FRMMAIN
         Me.BTNMEM.ColorContrastOnClick = 45
         Me.BTNMEM.ColorContrastOnHover = 45
         Me.BTNMEM.Cursor = System.Windows.Forms.Cursors.Default
-        BorderEdges4.BottomLeft = True
-        BorderEdges4.BottomRight = True
-        BorderEdges4.TopLeft = True
-        BorderEdges4.TopRight = False
-        Me.BTNMEM.CustomizableEdges = BorderEdges4
+        BorderEdges16.BottomLeft = True
+        BorderEdges16.BottomRight = True
+        BorderEdges16.TopLeft = True
+        BorderEdges16.TopRight = False
+        Me.BTNMEM.CustomizableEdges = BorderEdges16
         Me.BTNMEM.DialogResult = System.Windows.Forms.DialogResult.None
         Me.BTNMEM.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
         Me.BTNMEM.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
@@ -841,7 +511,7 @@ Partial Class FRMMAIN
         Me.BTNMEM.IdleFillColor = System.Drawing.Color.Transparent
         Me.BTNMEM.IdleIconLeftImage = Global.Pag_asa_Mutti_Purpose_Cooperative.My.Resources.Resources.users_alt__1_
         Me.BTNMEM.IdleIconRightImage = Nothing
-        Me.BTNMEM.IndicateFocus = True
+        Me.BTNMEM.IndicateFocus = False
         Me.BTNMEM.Location = New System.Drawing.Point(3, 3)
         Me.BTNMEM.Name = "BTNMEM"
         Me.BTNMEM.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
@@ -906,11 +576,11 @@ Partial Class FRMMAIN
         Me.BTNCHECK.ColorContrastOnClick = 45
         Me.BTNCHECK.ColorContrastOnHover = 45
         Me.BTNCHECK.Cursor = System.Windows.Forms.Cursors.Default
-        BorderEdges5.BottomLeft = True
-        BorderEdges5.BottomRight = True
-        BorderEdges5.TopLeft = True
-        BorderEdges5.TopRight = False
-        Me.BTNCHECK.CustomizableEdges = BorderEdges5
+        BorderEdges17.BottomLeft = True
+        BorderEdges17.BottomRight = True
+        BorderEdges17.TopLeft = True
+        BorderEdges17.TopRight = False
+        Me.BTNCHECK.CustomizableEdges = BorderEdges17
         Me.BTNCHECK.DialogResult = System.Windows.Forms.DialogResult.None
         Me.BTNCHECK.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
         Me.BTNCHECK.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
@@ -934,7 +604,7 @@ Partial Class FRMMAIN
         Me.BTNCHECK.IdleFillColor = System.Drawing.Color.Transparent
         Me.BTNCHECK.IdleIconLeftImage = Global.Pag_asa_Mutti_Purpose_Cooperative.My.Resources.Resources.gift
         Me.BTNCHECK.IdleIconRightImage = Nothing
-        Me.BTNCHECK.IndicateFocus = True
+        Me.BTNCHECK.IndicateFocus = False
         Me.BTNCHECK.Location = New System.Drawing.Point(3, 49)
         Me.BTNCHECK.Name = "BTNCHECK"
         Me.BTNCHECK.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
@@ -999,11 +669,11 @@ Partial Class FRMMAIN
         Me.BTNRICE.ColorContrastOnClick = 45
         Me.BTNRICE.ColorContrastOnHover = 45
         Me.BTNRICE.Cursor = System.Windows.Forms.Cursors.Default
-        BorderEdges6.BottomLeft = True
-        BorderEdges6.BottomRight = True
-        BorderEdges6.TopLeft = True
-        BorderEdges6.TopRight = False
-        Me.BTNRICE.CustomizableEdges = BorderEdges6
+        BorderEdges18.BottomLeft = True
+        BorderEdges18.BottomRight = True
+        BorderEdges18.TopLeft = True
+        BorderEdges18.TopRight = False
+        Me.BTNRICE.CustomizableEdges = BorderEdges18
         Me.BTNRICE.DialogResult = System.Windows.Forms.DialogResult.None
         Me.BTNRICE.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
         Me.BTNRICE.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
@@ -1027,7 +697,7 @@ Partial Class FRMMAIN
         Me.BTNRICE.IdleFillColor = System.Drawing.Color.Transparent
         Me.BTNRICE.IdleIconLeftImage = Global.Pag_asa_Mutti_Purpose_Cooperative.My.Resources.Resources.wheat__2_
         Me.BTNRICE.IdleIconRightImage = Nothing
-        Me.BTNRICE.IndicateFocus = True
+        Me.BTNRICE.IndicateFocus = False
         Me.BTNRICE.Location = New System.Drawing.Point(3, 95)
         Me.BTNRICE.Name = "BTNRICE"
         Me.BTNRICE.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
@@ -1092,11 +762,11 @@ Partial Class FRMMAIN
         Me.BTNCASH.ColorContrastOnClick = 45
         Me.BTNCASH.ColorContrastOnHover = 45
         Me.BTNCASH.Cursor = System.Windows.Forms.Cursors.Default
-        BorderEdges7.BottomLeft = True
-        BorderEdges7.BottomRight = True
-        BorderEdges7.TopLeft = True
-        BorderEdges7.TopRight = False
-        Me.BTNCASH.CustomizableEdges = BorderEdges7
+        BorderEdges19.BottomLeft = True
+        BorderEdges19.BottomRight = True
+        BorderEdges19.TopLeft = True
+        BorderEdges19.TopRight = False
+        Me.BTNCASH.CustomizableEdges = BorderEdges19
         Me.BTNCASH.DialogResult = System.Windows.Forms.DialogResult.None
         Me.BTNCASH.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
         Me.BTNCASH.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
@@ -1120,7 +790,7 @@ Partial Class FRMMAIN
         Me.BTNCASH.IdleFillColor = System.Drawing.Color.Transparent
         Me.BTNCASH.IdleIconLeftImage = Global.Pag_asa_Mutti_Purpose_Cooperative.My.Resources.Resources.dollar
         Me.BTNCASH.IdleIconRightImage = Nothing
-        Me.BTNCASH.IndicateFocus = True
+        Me.BTNCASH.IndicateFocus = False
         Me.BTNCASH.Location = New System.Drawing.Point(3, 141)
         Me.BTNCASH.Name = "BTNCASH"
         Me.BTNCASH.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
@@ -1185,11 +855,11 @@ Partial Class FRMMAIN
         Me.BTNLOANTRAN.ColorContrastOnClick = 45
         Me.BTNLOANTRAN.ColorContrastOnHover = 45
         Me.BTNLOANTRAN.Cursor = System.Windows.Forms.Cursors.Default
-        BorderEdges8.BottomLeft = True
-        BorderEdges8.BottomRight = True
-        BorderEdges8.TopLeft = True
-        BorderEdges8.TopRight = False
-        Me.BTNLOANTRAN.CustomizableEdges = BorderEdges8
+        BorderEdges20.BottomLeft = True
+        BorderEdges20.BottomRight = True
+        BorderEdges20.TopLeft = True
+        BorderEdges20.TopRight = False
+        Me.BTNLOANTRAN.CustomizableEdges = BorderEdges20
         Me.BTNLOANTRAN.DialogResult = System.Windows.Forms.DialogResult.None
         Me.BTNLOANTRAN.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
         Me.BTNLOANTRAN.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
@@ -1214,7 +884,7 @@ Partial Class FRMMAIN
         Me.BTNLOANTRAN.IdleIconLeftImage = Global.Pag_asa_Mutti_Purpose_Cooperative.My.Resources.Resources.ballot
         Me.BTNLOANTRAN.IdleIconRightImage = Global.Pag_asa_Mutti_Purpose_Cooperative.My.Resources.Resources.angle_small_down
         Me.BTNLOANTRAN.IndicateFocus = True
-        Me.BTNLOANTRAN.Location = New System.Drawing.Point(0, 311)
+        Me.BTNLOANTRAN.Location = New System.Drawing.Point(0, 351)
         Me.BTNLOANTRAN.Name = "BTNLOANTRAN"
         Me.BTNLOANTRAN.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
         Me.BTNLOANTRAN.OnDisabledState.BorderRadius = 1
@@ -1293,11 +963,11 @@ Partial Class FRMMAIN
         Me.BTELOAN.ColorContrastOnClick = 45
         Me.BTELOAN.ColorContrastOnHover = 45
         Me.BTELOAN.Cursor = System.Windows.Forms.Cursors.Default
-        BorderEdges9.BottomLeft = True
-        BorderEdges9.BottomRight = True
-        BorderEdges9.TopLeft = True
-        BorderEdges9.TopRight = True
-        Me.BTELOAN.CustomizableEdges = BorderEdges9
+        BorderEdges21.BottomLeft = True
+        BorderEdges21.BottomRight = True
+        BorderEdges21.TopLeft = True
+        BorderEdges21.TopRight = True
+        Me.BTELOAN.CustomizableEdges = BorderEdges21
         Me.BTELOAN.DialogResult = System.Windows.Forms.DialogResult.None
         Me.BTELOAN.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
         Me.BTELOAN.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
@@ -1321,7 +991,7 @@ Partial Class FRMMAIN
         Me.BTELOAN.IdleFillColor = System.Drawing.Color.Transparent
         Me.BTELOAN.IdleIconLeftImage = Global.Pag_asa_Mutti_Purpose_Cooperative.My.Resources.Resources.hand_holding_usd
         Me.BTELOAN.IdleIconRightImage = Nothing
-        Me.BTELOAN.IndicateFocus = True
+        Me.BTELOAN.IndicateFocus = False
         Me.BTELOAN.Location = New System.Drawing.Point(3, 3)
         Me.BTELOAN.Name = "BTELOAN"
         Me.BTELOAN.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
@@ -1386,11 +1056,11 @@ Partial Class FRMMAIN
         Me.BunifuButton3.ColorContrastOnClick = 45
         Me.BunifuButton3.ColorContrastOnHover = 45
         Me.BunifuButton3.Cursor = System.Windows.Forms.Cursors.Default
-        BorderEdges10.BottomLeft = True
-        BorderEdges10.BottomRight = True
-        BorderEdges10.TopLeft = True
-        BorderEdges10.TopRight = True
-        Me.BunifuButton3.CustomizableEdges = BorderEdges10
+        BorderEdges22.BottomLeft = True
+        BorderEdges22.BottomRight = True
+        BorderEdges22.TopLeft = True
+        BorderEdges22.TopRight = True
+        Me.BunifuButton3.CustomizableEdges = BorderEdges22
         Me.BunifuButton3.DialogResult = System.Windows.Forms.DialogResult.None
         Me.BunifuButton3.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
         Me.BunifuButton3.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
@@ -1414,7 +1084,7 @@ Partial Class FRMMAIN
         Me.BunifuButton3.IdleFillColor = System.Drawing.Color.Transparent
         Me.BunifuButton3.IdleIconLeftImage = Nothing
         Me.BunifuButton3.IdleIconRightImage = Nothing
-        Me.BunifuButton3.IndicateFocus = True
+        Me.BunifuButton3.IndicateFocus = False
         Me.BunifuButton3.Location = New System.Drawing.Point(3, 49)
         Me.BunifuButton3.Name = "BunifuButton3"
         Me.BunifuButton3.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
@@ -1479,11 +1149,11 @@ Partial Class FRMMAIN
         Me.BTNGIFT.ColorContrastOnClick = 45
         Me.BTNGIFT.ColorContrastOnHover = 45
         Me.BTNGIFT.Cursor = System.Windows.Forms.Cursors.Default
-        BorderEdges11.BottomLeft = True
-        BorderEdges11.BottomRight = True
-        BorderEdges11.TopLeft = True
-        BorderEdges11.TopRight = True
-        Me.BTNGIFT.CustomizableEdges = BorderEdges11
+        BorderEdges23.BottomLeft = True
+        BorderEdges23.BottomRight = True
+        BorderEdges23.TopLeft = True
+        BorderEdges23.TopRight = True
+        Me.BTNGIFT.CustomizableEdges = BorderEdges23
         Me.BTNGIFT.DialogResult = System.Windows.Forms.DialogResult.None
         Me.BTNGIFT.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
         Me.BTNGIFT.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
@@ -1507,7 +1177,7 @@ Partial Class FRMMAIN
         Me.BTNGIFT.IdleFillColor = System.Drawing.Color.Transparent
         Me.BTNGIFT.IdleIconLeftImage = Global.Pag_asa_Mutti_Purpose_Cooperative.My.Resources.Resources.gift
         Me.BTNGIFT.IdleIconRightImage = Nothing
-        Me.BTNGIFT.IndicateFocus = True
+        Me.BTNGIFT.IndicateFocus = False
         Me.BTNGIFT.Location = New System.Drawing.Point(3, 95)
         Me.BTNGIFT.Name = "BTNGIFT"
         Me.BTNGIFT.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
@@ -1572,11 +1242,11 @@ Partial Class FRMMAIN
         Me.BTNRICEL.ColorContrastOnClick = 45
         Me.BTNRICEL.ColorContrastOnHover = 45
         Me.BTNRICEL.Cursor = System.Windows.Forms.Cursors.Default
-        BorderEdges12.BottomLeft = True
-        BorderEdges12.BottomRight = True
-        BorderEdges12.TopLeft = True
-        BorderEdges12.TopRight = True
-        Me.BTNRICEL.CustomizableEdges = BorderEdges12
+        BorderEdges24.BottomLeft = True
+        BorderEdges24.BottomRight = True
+        BorderEdges24.TopLeft = True
+        BorderEdges24.TopRight = True
+        Me.BTNRICEL.CustomizableEdges = BorderEdges24
         Me.BTNRICEL.DialogResult = System.Windows.Forms.DialogResult.None
         Me.BTNRICEL.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
         Me.BTNRICEL.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
@@ -1600,7 +1270,7 @@ Partial Class FRMMAIN
         Me.BTNRICEL.IdleFillColor = System.Drawing.Color.Transparent
         Me.BTNRICEL.IdleIconLeftImage = Global.Pag_asa_Mutti_Purpose_Cooperative.My.Resources.Resources.wheat__2_
         Me.BTNRICEL.IdleIconRightImage = Nothing
-        Me.BTNRICEL.IndicateFocus = True
+        Me.BTNRICEL.IndicateFocus = False
         Me.BTNRICEL.Location = New System.Drawing.Point(3, 141)
         Me.BTNRICEL.Name = "BTNRICEL"
         Me.BTNRICEL.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
@@ -1665,11 +1335,11 @@ Partial Class FRMMAIN
         Me.BTNLOAN.ColorContrastOnClick = 45
         Me.BTNLOAN.ColorContrastOnHover = 45
         Me.BTNLOAN.Cursor = System.Windows.Forms.Cursors.Default
-        BorderEdges13.BottomLeft = True
-        BorderEdges13.BottomRight = True
-        BorderEdges13.TopLeft = True
-        BorderEdges13.TopRight = True
-        Me.BTNLOAN.CustomizableEdges = BorderEdges13
+        BorderEdges25.BottomLeft = True
+        BorderEdges25.BottomRight = True
+        BorderEdges25.TopLeft = True
+        BorderEdges25.TopRight = True
+        Me.BTNLOAN.CustomizableEdges = BorderEdges25
         Me.BTNLOAN.DialogResult = System.Windows.Forms.DialogResult.None
         Me.BTNLOAN.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
         Me.BTNLOAN.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(255, Byte), Integer))
@@ -1758,11 +1428,11 @@ Partial Class FRMMAIN
         Me.BTNMEMBER.ColorContrastOnClick = 45
         Me.BTNMEMBER.ColorContrastOnHover = 45
         Me.BTNMEMBER.Cursor = System.Windows.Forms.Cursors.Default
-        BorderEdges14.BottomLeft = True
-        BorderEdges14.BottomRight = True
-        BorderEdges14.TopLeft = True
-        BorderEdges14.TopRight = True
-        Me.BTNMEMBER.CustomizableEdges = BorderEdges14
+        BorderEdges26.BottomLeft = True
+        BorderEdges26.BottomRight = True
+        BorderEdges26.TopLeft = True
+        BorderEdges26.TopRight = True
+        Me.BTNMEMBER.CustomizableEdges = BorderEdges26
         Me.BTNMEMBER.DialogResult = System.Windows.Forms.DialogResult.None
         Me.BTNMEMBER.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
         Me.BTNMEMBER.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
@@ -1851,11 +1521,11 @@ Partial Class FRMMAIN
         Me.BTNDASHBOARD.ColorContrastOnClick = 45
         Me.BTNDASHBOARD.ColorContrastOnHover = 45
         Me.BTNDASHBOARD.Cursor = System.Windows.Forms.Cursors.Default
-        BorderEdges15.BottomLeft = True
-        BorderEdges15.BottomRight = True
-        BorderEdges15.TopLeft = True
-        BorderEdges15.TopRight = True
-        Me.BTNDASHBOARD.CustomizableEdges = BorderEdges15
+        BorderEdges27.BottomLeft = True
+        BorderEdges27.BottomRight = True
+        BorderEdges27.TopLeft = True
+        BorderEdges27.TopRight = True
+        Me.BTNDASHBOARD.CustomizableEdges = BorderEdges27
         Me.BTNDASHBOARD.DialogResult = System.Windows.Forms.DialogResult.None
         Me.BTNDASHBOARD.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
         Me.BTNDASHBOARD.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
@@ -1976,6 +1646,98 @@ Partial Class FRMMAIN
         Me.ExitTTP.SetToolTipIcon(Me.Guna2PictureBox1, Nothing)
         Me.ExitTTP.SetToolTipTitle(Me.Guna2PictureBox1, "")
         '
+        'BTNABT
+        '
+        Me.BTNABT.AllowAnimations = False
+        Me.BTNABT.AllowMouseEffects = True
+        Me.BTNABT.AllowToggling = False
+        Me.BTNABT.AnimationSpeed = 150
+        Me.BTNABT.AutoGenerateColors = False
+        Me.BTNABT.AutoRoundBorders = False
+        Me.BTNABT.AutoSizeLeftIcon = True
+        Me.BTNABT.AutoSizeRightIcon = True
+        Me.BTNABT.BackColor = System.Drawing.Color.Transparent
+        Me.BTNABT.BackColor1 = System.Drawing.Color.Transparent
+        Me.BTNABT.BackgroundImage = CType(resources.GetObject("BTNABT.BackgroundImage"), System.Drawing.Image)
+        Me.BTNABT.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        Me.BTNABT.ButtonText = "About"
+        Me.BTNABT.ButtonTextMarginLeft = 0
+        Me.BTNABT.ColorContrastOnClick = 45
+        Me.BTNABT.ColorContrastOnHover = 45
+        Me.BTNABT.Cursor = System.Windows.Forms.Cursors.Default
+        BorderEdges28.BottomLeft = True
+        BorderEdges28.BottomRight = True
+        BorderEdges28.TopLeft = True
+        BorderEdges28.TopRight = False
+        Me.BTNABT.CustomizableEdges = BorderEdges28
+        Me.BTNABT.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.BTNABT.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
+        Me.BTNABT.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
+        Me.BTNABT.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
+        Me.BTNABT.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
+        Me.BTNABT.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BTNABT.ForeColor = System.Drawing.Color.White
+        Me.BTNABT.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.BTNABT.IconLeftCursor = System.Windows.Forms.Cursors.Default
+        Me.BTNABT.IconLeftPadding = New System.Windows.Forms.Padding(11, 3, 3, 3)
+        Me.BTNABT.IconMarginLeft = 11
+        Me.BTNABT.IconPadding = 10
+        Me.BTNABT.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.BTNABT.IconRightCursor = System.Windows.Forms.Cursors.Default
+        Me.BTNABT.IconRightPadding = New System.Windows.Forms.Padding(3, 3, 7, 3)
+        Me.BTNABT.IconSize = 25
+        Me.BTNABT.IdleBorderColor = System.Drawing.Color.Transparent
+        Me.BTNABT.IdleBorderRadius = 1
+        Me.BTNABT.IdleBorderThickness = 1
+        Me.BTNABT.IdleFillColor = System.Drawing.Color.Transparent
+        Me.BTNABT.IdleIconLeftImage = Nothing
+        Me.BTNABT.IdleIconRightImage = Nothing
+        Me.BTNABT.IndicateFocus = True
+        Me.BTNABT.Location = New System.Drawing.Point(496, 744)
+        Me.BTNABT.Name = "BTNABT"
+        Me.BTNABT.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
+        Me.BTNABT.OnDisabledState.BorderRadius = 1
+        Me.BTNABT.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        Me.BTNABT.OnDisabledState.BorderThickness = 1
+        Me.BTNABT.OnDisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
+        Me.BTNABT.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
+        Me.BTNABT.OnDisabledState.IconLeftImage = Nothing
+        Me.BTNABT.OnDisabledState.IconRightImage = Nothing
+        Me.BTNABT.onHoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(176, Byte), Integer), CType(CType(170, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.BTNABT.onHoverState.BorderRadius = 1
+        Me.BTNABT.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        Me.BTNABT.onHoverState.BorderThickness = 1
+        Me.BTNABT.onHoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(10, Byte), Integer), CType(CType(175, Byte), Integer))
+        Me.BTNABT.onHoverState.ForeColor = System.Drawing.Color.White
+        Me.BTNABT.onHoverState.IconLeftImage = Nothing
+        Me.BTNABT.onHoverState.IconRightImage = Nothing
+        Me.BTNABT.OnIdleState.BorderColor = System.Drawing.Color.Transparent
+        Me.BTNABT.OnIdleState.BorderRadius = 1
+        Me.BTNABT.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        Me.BTNABT.OnIdleState.BorderThickness = 1
+        Me.BTNABT.OnIdleState.FillColor = System.Drawing.Color.Transparent
+        Me.BTNABT.OnIdleState.ForeColor = System.Drawing.Color.White
+        Me.BTNABT.OnIdleState.IconLeftImage = Nothing
+        Me.BTNABT.OnIdleState.IconRightImage = Nothing
+        Me.BTNABT.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.BTNABT.OnPressedState.BorderRadius = 1
+        Me.BTNABT.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        Me.BTNABT.OnPressedState.BorderThickness = 1
+        Me.BTNABT.OnPressedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.BTNABT.OnPressedState.ForeColor = System.Drawing.Color.White
+        Me.BTNABT.OnPressedState.IconLeftImage = Nothing
+        Me.BTNABT.OnPressedState.IconRightImage = Nothing
+        Me.BTNABT.Size = New System.Drawing.Size(217, 40)
+        Me.BTNABT.TabIndex = 13
+        Me.BTNABT.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.BTNABT.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center
+        Me.BTNABT.TextMarginLeft = 0
+        Me.BTNABT.TextPadding = New System.Windows.Forms.Padding(0)
+        Me.ExitTTP.SetToolTip(Me.BTNABT, "")
+        Me.ExitTTP.SetToolTipIcon(Me.BTNABT, Nothing)
+        Me.ExitTTP.SetToolTipTitle(Me.BTNABT, "")
+        Me.BTNABT.UseDefaultRadiusAndThickness = True
+        '
         'BunifuVScrollBar1
         '
         Me.BunifuVScrollBar1.AllowCursorChanges = True
@@ -2007,27 +1769,27 @@ Partial Class FRMMAIN
         Me.BunifuVScrollBar1.ScrollBarBorderColor = System.Drawing.Color.Transparent
         Me.BunifuVScrollBar1.ScrollBarColor = System.Drawing.Color.Transparent
         Me.BunifuVScrollBar1.ShrinkSizeLimit = 3
-        Me.BunifuVScrollBar1.Size = New System.Drawing.Size(12, 647)
+        Me.BunifuVScrollBar1.Size = New System.Drawing.Size(12, 637)
         Me.BunifuVScrollBar1.SmallChange = 1
         Me.BunifuVScrollBar1.TabIndex = 7
         Me.BunifuVScrollBar1.ThumbColor = System.Drawing.Color.Gray
-        Me.BunifuVScrollBar1.ThumbLength = 63
+        Me.BunifuVScrollBar1.ThumbLength = 62
         Me.BunifuVScrollBar1.ThumbMargin = 1
         Me.BunifuVScrollBar1.ThumbStyle = Bunifu.UI.WinForms.BunifuVScrollBar.ThumbStyles.Inset
         Me.ExitTTP.SetToolTip(Me.BunifuVScrollBar1, "")
         Me.ExitTTP.SetToolTipIcon(Me.BunifuVScrollBar1, Nothing)
         Me.ExitTTP.SetToolTipTitle(Me.BunifuVScrollBar1, "")
         Me.BunifuVScrollBar1.Value = 0
-        Me.BunifuVScrollBar1.Visible = False
         '
         'FRMMAIN
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(238, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(1188, 647)
+        Me.ClientSize = New System.Drawing.Size(1188, 637)
         Me.Controls.Add(Me.BunifuVScrollBar1)
         Me.Controls.Add(Me.BTNEXIT)
+        Me.Controls.Add(Me.BTNABT)
         Me.Controls.Add(Me.BTNLOGOUT)
         Me.Controls.Add(Me.LBLUST)
         Me.Controls.Add(Me.LBLNAME)
@@ -2042,9 +1804,6 @@ Partial Class FRMMAIN
         CType(Me.BunifuPictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PNLMAINDOCKER.ResumeLayout(False)
         Me.PNLMAINDOCKER.PerformLayout()
-        Me.PNLHIST.ResumeLayout(False)
-        Me.PNLHIST.PerformLayout()
-        CType(Me.Guna2CirclePictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PNLNAV.ResumeLayout(False)
         Me.PNLMAINNAV.ResumeLayout(False)
         Me.FLPNLLOAN.ResumeLayout(False)
@@ -2057,18 +1816,12 @@ Partial Class FRMMAIN
     End Sub
 
     Friend WithEvents PNLNAV As Bunifu.UI.WinForms.BunifuPanel
-    Friend WithEvents PNLHIST As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents BTNREP As Bunifu.UI.WinForms.BunifuButton.BunifuButton
     Friend WithEvents BTNLOANTRAN As Bunifu.UI.WinForms.BunifuButton.BunifuButton
     Friend WithEvents BTNMEMBER As Bunifu.UI.WinForms.BunifuButton.BunifuButton
     Friend WithEvents BTNDASHBOARD As Bunifu.UI.WinForms.BunifuButton.BunifuButton
     Friend WithEvents BTNLOAN As Bunifu.UI.WinForms.BunifuButton.BunifuButton
     Friend WithEvents Guna2PictureBox1 As Guna.UI2.WinForms.Guna2PictureBox
     Friend WithEvents BunifuLabel1 As Bunifu.UI.WinForms.BunifuLabel
-    Friend WithEvents Guna2CirclePictureBox1 As Guna.UI2.WinForms.Guna2CirclePictureBox
-    Friend WithEvents BunifuLabel2 As Bunifu.UI.WinForms.BunifuLabel
-    Friend WithEvents BTNdot As Bunifu.UI.WinForms.BunifuImageButton
-    Friend WithEvents BunifuLabel3 As Bunifu.UI.WinForms.BunifuLabel
     Friend WithEvents TXTSEARCH As Bunifu.UI.WinForms.BunifuTextBox
     Friend WithEvents LBLUST As Bunifu.UI.WinForms.BunifuLabel
     Friend WithEvents BunifuPictureBox1 As Bunifu.UI.WinForms.BunifuPictureBox
@@ -2076,7 +1829,6 @@ Partial Class FRMMAIN
     Friend WithEvents BTNLOGOUT As Guna.UI2.WinForms.Guna2ImageButton
     Friend WithEvents BTNEXIT As Guna.UI2.WinForms.Guna2ImageButton
     Friend WithEvents ExitTTP As Bunifu.UI.WinForms.BunifuToolTip
-    Friend WithEvents BunifuLabel5 As Bunifu.UI.WinForms.BunifuLabel
     Friend WithEvents Label1 As Label
     Friend WithEvents PNLMAINDOCKER As Bunifu.UI.WinForms.BunifuPanel
     Friend WithEvents PNLMAINNAV As Guna.UI2.WinForms.Guna2Panel
@@ -2091,7 +1843,7 @@ Partial Class FRMMAIN
     Friend WithEvents BTNCHECK As Bunifu.UI.WinForms.BunifuButton.BunifuButton
     Friend WithEvents BTNRICE As Bunifu.UI.WinForms.BunifuButton.BunifuButton
     Friend WithEvents BTNCASH As Bunifu.UI.WinForms.BunifuButton.BunifuButton
-    Friend WithEvents BunifuButton1 As Bunifu.UI.WinForms.BunifuButton.BunifuButton
+    Friend WithEvents BTNREP As Bunifu.UI.WinForms.BunifuButton.BunifuButton
+    Friend WithEvents BTNABT As Bunifu.UI.WinForms.BunifuButton.BunifuButton
     Friend WithEvents BunifuVScrollBar1 As Bunifu.UI.WinForms.BunifuVScrollBar
-    Friend WithEvents BunifuButton5 As Bunifu.UI.WinForms.BunifuButton.BunifuButton
 End Class

@@ -3,6 +3,8 @@
         'this will disable the visibility of panel 
         FLPNLLOANDROP.Visible = False
         FLPNLLOAN.Visible = False
+
+
         Dim ctrldash As Integer
         For ctrldash = 0 To 0
             PNLMAINDOCKER.Controls.RemoveAt(ctrldash)
@@ -55,8 +57,10 @@
     Private Sub BTNLOAN_Click(sender As Object, e As EventArgs) Handles BTNLOAN.Click
         If FLPNLLOANDROP.Visible = True Then
             FLPNLLOANDROP.Visible = False
+
         Else
-        FLPNLLOANDROP.Visible = True
+            FLPNLLOANDROP.Visible = True
+
         End If
 
     End Sub
@@ -67,12 +71,15 @@
         Else
             FLPNLLOAN.Visible = True
         End If
+
+
     End Sub
 
 
 
     Private Sub PNLMAINNAV_Click(sender As Object, e As EventArgs) Handles PNLMAINNAV.Click
-        BunifuVScrollBar1.BindTo(PNLMAINNAV)
+        BunifuVScrollBar1.BindTo(PNLNAV)
+
     End Sub
 
     Private Sub BTNRICEL_Click(sender As Object, e As EventArgs) Handles BTNRICEL.Click
@@ -88,7 +95,7 @@
     End Sub
 
     Private Sub BTNGIFT_Click(sender As Object, e As EventArgs) Handles BTNGIFT.Click
-        Dim crtlgift As Integer
+        Dim ctrlgift As Integer
         For ctrlgift = 0 To 0
             PNLMAINDOCKER.Controls.RemoveAt(ctrlgift)
         Next
@@ -97,4 +104,6 @@
         D.Show()
         D.Dock = DockStyle.Fill
     End Sub
+
+
 End Class

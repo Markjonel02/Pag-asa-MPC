@@ -4,9 +4,9 @@ Public Class USRCRTLMEMBERGIFT
 
 
     Private Sub PNLMEM_Click(sender As Object, e As EventArgs) Handles PNLMEM.Click
-        'PNLMEM.AutoScroll = True
-        'PNLMEM.VerticalScroll.Visible = False Or PNLMEM.HorizontalScroll.Visible = False
-        SCSCROLL.BindTo(PNLMEM)
+        PNLMEM.AutoScroll = True
+        PNLMEM.VerticalScroll.Visible = True Or PNLMEM.HorizontalScroll.Visible = False
+
     End Sub
 
 

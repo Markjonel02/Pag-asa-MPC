@@ -92,7 +92,7 @@ Partial Class USRCTRLRICELOANAPP
         Dim StateProperties67 As Bunifu.UI.WinForms.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextBox.StateProperties()
         Dim StateProperties68 As Bunifu.UI.WinForms.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextBox.StateProperties()
         Me.BunifuPanel1 = New Bunifu.UI.WinForms.BunifuPanel()
-        Me.PNLMEM = New Bunifu.UI.WinForms.BunifuPanel()
+        Me.PNLRICE = New Bunifu.UI.WinForms.BunifuPanel()
         Me.BunifuLabel35 = New Bunifu.UI.WinForms.BunifuLabel()
         Me.BunifuLabel34 = New Bunifu.UI.WinForms.BunifuLabel()
         Me.BunifuLabel32 = New Bunifu.UI.WinForms.BunifuLabel()
@@ -116,7 +116,6 @@ Partial Class USRCTRLRICELOANAPP
         Me.BunifuLabel15 = New Bunifu.UI.WinForms.BunifuLabel()
         Me.BunifuTextBox9 = New Bunifu.UI.WinForms.BunifuTextBox()
         Me.BunifuLabel22 = New Bunifu.UI.WinForms.BunifuLabel()
-        Me.SCSCROLL = New Bunifu.UI.WinForms.BunifuVScrollBar()
         Me.BunifuLabel19 = New Bunifu.UI.WinForms.BunifuLabel()
         Me.BunifuLabel20 = New Bunifu.UI.WinForms.BunifuLabel()
         Me.BunifuTextBox8 = New Bunifu.UI.WinForms.BunifuTextBox()
@@ -150,7 +149,7 @@ Partial Class USRCTRLRICELOANAPP
         Me.TXTUSN = New Bunifu.UI.WinForms.BunifuTextBox()
         Me.LBLDASHBOARD = New Bunifu.UI.WinForms.BunifuLabel()
         Me.BunifuPanel1.SuspendLayout()
-        Me.PNLMEM.SuspendLayout()
+        Me.PNLRICE.SuspendLayout()
         Me.SuspendLayout()
         '
         'BunifuPanel1
@@ -161,7 +160,7 @@ Partial Class USRCTRLRICELOANAPP
         Me.BunifuPanel1.BorderColor = System.Drawing.Color.Transparent
         Me.BunifuPanel1.BorderRadius = 3
         Me.BunifuPanel1.BorderThickness = 1
-        Me.BunifuPanel1.Controls.Add(Me.PNLMEM)
+        Me.BunifuPanel1.Controls.Add(Me.PNLRICE)
         Me.BunifuPanel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.BunifuPanel1.Location = New System.Drawing.Point(0, 0)
         Me.BunifuPanel1.Name = "BunifuPanel1"
@@ -169,76 +168,75 @@ Partial Class USRCTRLRICELOANAPP
         Me.BunifuPanel1.Size = New System.Drawing.Size(941, 571)
         Me.BunifuPanel1.TabIndex = 0
         '
-        'PNLMEM
+        'PNLRICE
         '
-        Me.PNLMEM.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(238, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.PNLMEM.BackgroundImage = CType(resources.GetObject("PNLMEM.BackgroundImage"), System.Drawing.Image)
-        Me.PNLMEM.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PNLMEM.BorderColor = System.Drawing.Color.Transparent
-        Me.PNLMEM.BorderRadius = 3
-        Me.PNLMEM.BorderThickness = 1
-        Me.PNLMEM.Controls.Add(Me.BunifuLabel35)
-        Me.PNLMEM.Controls.Add(Me.BunifuLabel34)
-        Me.PNLMEM.Controls.Add(Me.BunifuLabel32)
-        Me.PNLMEM.Controls.Add(Me.BunifuTextBox16)
-        Me.PNLMEM.Controls.Add(Me.BunifuLabel33)
-        Me.PNLMEM.Controls.Add(Me.BunifuLabel30)
-        Me.PNLMEM.Controls.Add(Me.BunifuTextBox14)
-        Me.PNLMEM.Controls.Add(Me.BunifuLabel31)
-        Me.PNLMEM.Controls.Add(Me.BunifuLabel28)
-        Me.PNLMEM.Controls.Add(Me.BunifuTextBox13)
-        Me.PNLMEM.Controls.Add(Me.BunifuLabel29)
-        Me.PNLMEM.Controls.Add(Me.BunifuTextBox12)
-        Me.PNLMEM.Controls.Add(Me.BunifuTextBox11)
-        Me.PNLMEM.Controls.Add(Me.BunifuLabel27)
-        Me.PNLMEM.Controls.Add(Me.BunifuLabel26)
-        Me.PNLMEM.Controls.Add(Me.BunifuLabel25)
-        Me.PNLMEM.Controls.Add(Me.BunifuLabel24)
-        Me.PNLMEM.Controls.Add(Me.BunifuTextBox10)
-        Me.PNLMEM.Controls.Add(Me.BunifuLabel23)
-        Me.PNLMEM.Controls.Add(Me.BunifuLabel14)
-        Me.PNLMEM.Controls.Add(Me.BunifuLabel15)
-        Me.PNLMEM.Controls.Add(Me.BunifuTextBox9)
-        Me.PNLMEM.Controls.Add(Me.BunifuLabel22)
-        Me.PNLMEM.Controls.Add(Me.SCSCROLL)
-        Me.PNLMEM.Controls.Add(Me.BunifuLabel19)
-        Me.PNLMEM.Controls.Add(Me.BunifuLabel20)
-        Me.PNLMEM.Controls.Add(Me.BunifuTextBox8)
-        Me.PNLMEM.Controls.Add(Me.BunifuLabel21)
-        Me.PNLMEM.Controls.Add(Me.BunifuLabel18)
-        Me.PNLMEM.Controls.Add(Me.BunifuLabel16)
-        Me.PNLMEM.Controls.Add(Me.BunifuTextBox7)
-        Me.PNLMEM.Controls.Add(Me.BunifuLabel17)
-        Me.PNLMEM.Controls.Add(Me.BunifuLabel13)
-        Me.PNLMEM.Controls.Add(Me.BunifuTextBox1)
-        Me.PNLMEM.Controls.Add(Me.BunifuLabel6)
-        Me.PNLMEM.Controls.Add(Me.BunifuDatePicker2)
-        Me.PNLMEM.Controls.Add(Me.BunifuLabel12)
-        Me.PNLMEM.Controls.Add(Me.BunifuTextBox4)
-        Me.PNLMEM.Controls.Add(Me.BunifuLabel11)
-        Me.PNLMEM.Controls.Add(Me.BunifuTextBox6)
-        Me.PNLMEM.Controls.Add(Me.BunifuLabel10)
-        Me.PNLMEM.Controls.Add(Me.BunifuTextBox2)
-        Me.PNLMEM.Controls.Add(Me.BunifuLabel8)
-        Me.PNLMEM.Controls.Add(Me.BunifuDatePicker1)
-        Me.PNLMEM.Controls.Add(Me.BunifuLabel7)
-        Me.PNLMEM.Controls.Add(Me.BunifuTextBox5)
-        Me.PNLMEM.Controls.Add(Me.BunifuLabel5)
-        Me.PNLMEM.Controls.Add(Me.BunifuTextBox3)
-        Me.PNLMEM.Controls.Add(Me.BunifuLabel9)
-        Me.PNLMEM.Controls.Add(Me.BunifuLabel3)
-        Me.PNLMEM.Controls.Add(Me.BunifuLabel4)
-        Me.PNLMEM.Controls.Add(Me.BunifuLabel2)
-        Me.PNLMEM.Controls.Add(Me.BunifuLabel1)
-        Me.PNLMEM.Controls.Add(Me.TXTPASS)
-        Me.PNLMEM.Controls.Add(Me.TXTUSN)
-        Me.PNLMEM.Controls.Add(Me.LBLDASHBOARD)
-        Me.PNLMEM.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.PNLMEM.Location = New System.Drawing.Point(0, 0)
-        Me.PNLMEM.Name = "PNLMEM"
-        Me.PNLMEM.ShowBorders = True
-        Me.PNLMEM.Size = New System.Drawing.Size(941, 571)
-        Me.PNLMEM.TabIndex = 1
+        Me.PNLRICE.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(238, Byte), Integer), CType(CType(237, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.PNLRICE.BackgroundImage = CType(resources.GetObject("PNLRICE.BackgroundImage"), System.Drawing.Image)
+        Me.PNLRICE.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PNLRICE.BorderColor = System.Drawing.Color.Transparent
+        Me.PNLRICE.BorderRadius = 3
+        Me.PNLRICE.BorderThickness = 1
+        Me.PNLRICE.Controls.Add(Me.BunifuLabel35)
+        Me.PNLRICE.Controls.Add(Me.BunifuLabel34)
+        Me.PNLRICE.Controls.Add(Me.BunifuLabel32)
+        Me.PNLRICE.Controls.Add(Me.BunifuTextBox16)
+        Me.PNLRICE.Controls.Add(Me.BunifuLabel33)
+        Me.PNLRICE.Controls.Add(Me.BunifuLabel30)
+        Me.PNLRICE.Controls.Add(Me.BunifuTextBox14)
+        Me.PNLRICE.Controls.Add(Me.BunifuLabel31)
+        Me.PNLRICE.Controls.Add(Me.BunifuLabel28)
+        Me.PNLRICE.Controls.Add(Me.BunifuTextBox13)
+        Me.PNLRICE.Controls.Add(Me.BunifuLabel29)
+        Me.PNLRICE.Controls.Add(Me.BunifuTextBox12)
+        Me.PNLRICE.Controls.Add(Me.BunifuTextBox11)
+        Me.PNLRICE.Controls.Add(Me.BunifuLabel27)
+        Me.PNLRICE.Controls.Add(Me.BunifuLabel26)
+        Me.PNLRICE.Controls.Add(Me.BunifuLabel25)
+        Me.PNLRICE.Controls.Add(Me.BunifuLabel24)
+        Me.PNLRICE.Controls.Add(Me.BunifuTextBox10)
+        Me.PNLRICE.Controls.Add(Me.BunifuLabel23)
+        Me.PNLRICE.Controls.Add(Me.BunifuLabel14)
+        Me.PNLRICE.Controls.Add(Me.BunifuLabel15)
+        Me.PNLRICE.Controls.Add(Me.BunifuTextBox9)
+        Me.PNLRICE.Controls.Add(Me.BunifuLabel22)
+        Me.PNLRICE.Controls.Add(Me.BunifuLabel19)
+        Me.PNLRICE.Controls.Add(Me.BunifuLabel20)
+        Me.PNLRICE.Controls.Add(Me.BunifuTextBox8)
+        Me.PNLRICE.Controls.Add(Me.BunifuLabel21)
+        Me.PNLRICE.Controls.Add(Me.BunifuLabel18)
+        Me.PNLRICE.Controls.Add(Me.BunifuLabel16)
+        Me.PNLRICE.Controls.Add(Me.BunifuTextBox7)
+        Me.PNLRICE.Controls.Add(Me.BunifuLabel17)
+        Me.PNLRICE.Controls.Add(Me.BunifuLabel13)
+        Me.PNLRICE.Controls.Add(Me.BunifuTextBox1)
+        Me.PNLRICE.Controls.Add(Me.BunifuLabel6)
+        Me.PNLRICE.Controls.Add(Me.BunifuDatePicker2)
+        Me.PNLRICE.Controls.Add(Me.BunifuLabel12)
+        Me.PNLRICE.Controls.Add(Me.BunifuTextBox4)
+        Me.PNLRICE.Controls.Add(Me.BunifuLabel11)
+        Me.PNLRICE.Controls.Add(Me.BunifuTextBox6)
+        Me.PNLRICE.Controls.Add(Me.BunifuLabel10)
+        Me.PNLRICE.Controls.Add(Me.BunifuTextBox2)
+        Me.PNLRICE.Controls.Add(Me.BunifuLabel8)
+        Me.PNLRICE.Controls.Add(Me.BunifuDatePicker1)
+        Me.PNLRICE.Controls.Add(Me.BunifuLabel7)
+        Me.PNLRICE.Controls.Add(Me.BunifuTextBox5)
+        Me.PNLRICE.Controls.Add(Me.BunifuLabel5)
+        Me.PNLRICE.Controls.Add(Me.BunifuTextBox3)
+        Me.PNLRICE.Controls.Add(Me.BunifuLabel9)
+        Me.PNLRICE.Controls.Add(Me.BunifuLabel3)
+        Me.PNLRICE.Controls.Add(Me.BunifuLabel4)
+        Me.PNLRICE.Controls.Add(Me.BunifuLabel2)
+        Me.PNLRICE.Controls.Add(Me.BunifuLabel1)
+        Me.PNLRICE.Controls.Add(Me.TXTPASS)
+        Me.PNLRICE.Controls.Add(Me.TXTUSN)
+        Me.PNLRICE.Controls.Add(Me.LBLDASHBOARD)
+        Me.PNLRICE.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PNLRICE.Location = New System.Drawing.Point(0, 0)
+        Me.PNLRICE.Name = "PNLRICE"
+        Me.PNLRICE.ShowBorders = True
+        Me.PNLRICE.Size = New System.Drawing.Size(941, 571)
+        Me.PNLRICE.TabIndex = 1
         '
         'BunifuLabel35
         '
@@ -1027,47 +1025,6 @@ Partial Class USRCTRLRICELOANAPP
         Me.BunifuLabel22.Text = "Apporved By"
         Me.BunifuLabel22.TextAlignment = System.Drawing.ContentAlignment.TopLeft
         Me.BunifuLabel22.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
-        '
-        'SCSCROLL
-        '
-        Me.SCSCROLL.AllowCursorChanges = True
-        Me.SCSCROLL.AllowHomeEndKeysDetection = False
-        Me.SCSCROLL.AllowIncrementalClickMoves = True
-        Me.SCSCROLL.AllowMouseDownEffects = True
-        Me.SCSCROLL.AllowMouseHoverEffects = False
-        Me.SCSCROLL.AllowScrollingAnimations = True
-        Me.SCSCROLL.AllowScrollKeysDetection = True
-        Me.SCSCROLL.AllowScrollOptionsMenu = True
-        Me.SCSCROLL.AllowShrinkingOnFocusLost = False
-        Me.SCSCROLL.AutoScroll = True
-        Me.SCSCROLL.BackgroundColor = System.Drawing.Color.Transparent
-        Me.SCSCROLL.BackgroundImage = CType(resources.GetObject("SCSCROLL.BackgroundImage"), System.Drawing.Image)
-        Me.SCSCROLL.BindingContainer = Me.PNLMEM
-        Me.SCSCROLL.BorderColor = System.Drawing.Color.Silver
-        Me.SCSCROLL.BorderRadius = 10
-        Me.SCSCROLL.BorderThickness = 1
-        Me.SCSCROLL.Dock = System.Windows.Forms.DockStyle.Right
-        Me.SCSCROLL.DurationBeforeShrink = 2000
-        Me.SCSCROLL.LargeChange = 10
-        Me.SCSCROLL.Location = New System.Drawing.Point(927, 0)
-        Me.SCSCROLL.Maximum = 100
-        Me.SCSCROLL.Minimum = 0
-        Me.SCSCROLL.MinimumThumbLength = 18
-        Me.SCSCROLL.Name = "SCSCROLL"
-        Me.SCSCROLL.OnDisable.ScrollBarBorderColor = System.Drawing.Color.Silver
-        Me.SCSCROLL.OnDisable.ScrollBarColor = System.Drawing.Color.Transparent
-        Me.SCSCROLL.OnDisable.ThumbColor = System.Drawing.Color.Silver
-        Me.SCSCROLL.ScrollBarBorderColor = System.Drawing.Color.Silver
-        Me.SCSCROLL.ScrollBarColor = System.Drawing.Color.Transparent
-        Me.SCSCROLL.ShrinkSizeLimit = 3
-        Me.SCSCROLL.Size = New System.Drawing.Size(14, 571)
-        Me.SCSCROLL.SmallChange = 1
-        Me.SCSCROLL.TabIndex = 98
-        Me.SCSCROLL.ThumbColor = System.Drawing.Color.FromArgb(CType(CType(103, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.SCSCROLL.ThumbLength = 56
-        Me.SCSCROLL.ThumbMargin = 1
-        Me.SCSCROLL.ThumbStyle = Bunifu.UI.WinForms.BunifuVScrollBar.ThumbStyles.Inset
-        Me.SCSCROLL.Value = 0
         '
         'BunifuLabel19
         '
@@ -2202,14 +2159,14 @@ Partial Class USRCTRLRICELOANAPP
         Me.Name = "USRCTRLRICELOANAPP"
         Me.Size = New System.Drawing.Size(941, 571)
         Me.BunifuPanel1.ResumeLayout(False)
-        Me.PNLMEM.ResumeLayout(False)
-        Me.PNLMEM.PerformLayout()
+        Me.PNLRICE.ResumeLayout(False)
+        Me.PNLRICE.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
 
     Friend WithEvents BunifuPanel1 As Bunifu.UI.WinForms.BunifuPanel
-    Friend WithEvents PNLMEM As Bunifu.UI.WinForms.BunifuPanel
+    Friend WithEvents PNLRICE As Bunifu.UI.WinForms.BunifuPanel
     Friend WithEvents BunifuLabel30 As Bunifu.UI.WinForms.BunifuLabel
     Friend WithEvents BunifuTextBox14 As Bunifu.UI.WinForms.BunifuTextBox
     Friend WithEvents BunifuLabel31 As Bunifu.UI.WinForms.BunifuLabel
@@ -2228,7 +2185,6 @@ Partial Class USRCTRLRICELOANAPP
     Friend WithEvents BunifuLabel15 As Bunifu.UI.WinForms.BunifuLabel
     Friend WithEvents BunifuTextBox9 As Bunifu.UI.WinForms.BunifuTextBox
     Friend WithEvents BunifuLabel22 As Bunifu.UI.WinForms.BunifuLabel
-    Friend WithEvents SCSCROLL As Bunifu.UI.WinForms.BunifuVScrollBar
     Friend WithEvents BunifuLabel19 As Bunifu.UI.WinForms.BunifuLabel
     Friend WithEvents BunifuLabel20 As Bunifu.UI.WinForms.BunifuLabel
     Friend WithEvents BunifuTextBox8 As Bunifu.UI.WinForms.BunifuTextBox
