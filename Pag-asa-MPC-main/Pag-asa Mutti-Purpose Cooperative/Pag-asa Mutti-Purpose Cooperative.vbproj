@@ -11,9 +11,10 @@
     <AssemblyName>Pag-asa Mutti-Purpose Cooperative</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -47,6 +48,29 @@
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>Pag-asa Mutti-Purpose Cooperative.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>Pag-asa Mutti-Purpose Cooperative.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Bunifu.Licensing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=f89b4760ba7dcb6b" />
     <Reference Include="Bunifu.UI.WinForms.1.5.3">
@@ -54,6 +78,9 @@
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuButton">
       <HintPath>..\..\..\..\Downloads\Compressed\_Getintopc.com_Bunifu_UI_WinForms_5.0.3\Bunifu_UI_WinForms_5.0.3\ui.winforms.5.0.3\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuCheckBox">
+      <HintPath>..\..\..\..\Downloads\Compressed\_Getintopc.com_Bunifu_UI_WinForms_5.0.3\Bunifu_UI_WinForms_5.0.3\ui.winforms.5.0.3\Bunifu.UI.WinForms.BunifuCheckBox.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuDatePicker">
       <HintPath>..\..\..\..\Downloads\Compressed\_Getintopc.com_Bunifu_UI_WinForms_5.0.3\Bunifu_UI_WinForms_5.0.3\ui.winforms.5.0.3\Bunifu.UI.WinForms.BunifuDatePicker.dll</HintPath>
@@ -63,6 +90,9 @@
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuGradientPanel">
       <HintPath>..\..\..\..\Downloads\Compressed\_Getintopc.com_Bunifu_UI_WinForms_5.0.3\Bunifu_UI_WinForms_5.0.3\ui.winforms.5.0.3\Bunifu.UI.WinForms.BunifuGradientPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuGroupBox">
+      <HintPath>..\..\..\..\Downloads\Compressed\BUNIFU TOOLS\BUNIFU TOOLS\Bunifu.UI.WinForms.BunifuGroupBox.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuImageButton">
       <HintPath>..\..\..\..\Downloads\Compressed\_Getintopc.com_Bunifu_UI_WinForms_5.0.3\Bunifu_UI_WinForms_5.0.3\ui.winforms.5.0.3\Bunifu.UI.WinForms.BunifuImageButton.dll</HintPath>
@@ -157,6 +187,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="UserManagement.Designer.vb">
+      <DependentUpon>UserManagement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserManagement.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="USRCRTLDASHBOARD.Designer.vb">
       <DependentUpon>USRCRTLDASHBOARD.vb</DependentUpon>
     </Compile>
@@ -169,16 +205,16 @@
     <Compile Include="USRCRTLLOAN.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="USRCRTLMEMBERGIFT.Designer.vb">
-      <DependentUpon>USRCRTLMEMBERGIFT.vb</DependentUpon>
+    <Compile Include="USRCRTLMEMBERGIFT for printable.Designer.vb">
+      <DependentUpon>USRCRTLMEMBERGIFT for printable.vb</DependentUpon>
     </Compile>
-    <Compile Include="USRCRTLMEMBERGIFT.vb">
+    <Compile Include="USRCRTLMEMBERGIFT for printable.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="USRCTRLMEMBERSHIPAPP.Designer.vb">
-      <DependentUpon>USRCTRLMEMBERSHIPAPP.vb</DependentUpon>
+    <Compile Include="USRCTRLMEMBERSHIPAPP for reports .Designer.vb">
+      <DependentUpon>USRCTRLMEMBERSHIPAPP for reports .vb</DependentUpon>
     </Compile>
-    <Compile Include="USRCTRLMEMBERSHIPAPP.vb">
+    <Compile Include="USRCTRLMEMBERSHIPAPP for reports .vb">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="USRCTRLRICELOANAPP.Designer.vb">
@@ -202,17 +238,20 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserManagement.resx">
+      <DependentUpon>UserManagement.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="USRCRTLDASHBOARD.resx">
       <DependentUpon>USRCRTLDASHBOARD.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="USRCRTLLOAN.resx">
       <DependentUpon>USRCRTLLOAN.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="USRCRTLMEMBERGIFT.resx">
-      <DependentUpon>USRCRTLMEMBERGIFT.vb</DependentUpon>
+    <EmbeddedResource Include="USRCRTLMEMBERGIFT for printable.resx">
+      <DependentUpon>USRCRTLMEMBERGIFT for printable.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="USRCTRLMEMBERSHIPAPP.resx">
-      <DependentUpon>USRCTRLMEMBERSHIPAPP.vb</DependentUpon>
+    <EmbeddedResource Include="USRCTRLMEMBERSHIPAPP for reports .resx">
+      <DependentUpon>USRCTRLMEMBERSHIPAPP for reports .vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="USRCTRLRICELOANAPP.resx">
       <DependentUpon>USRCTRLRICELOANAPP.vb</DependentUpon>
@@ -310,6 +349,39 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\angle-small-down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\broom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map-marker-question.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alarm-clock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alarm-clock %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

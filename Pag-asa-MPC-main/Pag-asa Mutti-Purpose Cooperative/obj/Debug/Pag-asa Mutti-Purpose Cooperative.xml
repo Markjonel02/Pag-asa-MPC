@@ -32,6 +32,31 @@ Pag-asa Mutti-Purpose Cooperative
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Pag_asa_Mutti_Purpose_Cooperative.My.Resources.Resources.add">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Pag_asa_Mutti_Purpose_Cooperative.My.Resources.Resources.add__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Pag_asa_Mutti_Purpose_Cooperative.My.Resources.Resources.add__1_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Pag_asa_Mutti_Purpose_Cooperative.My.Resources.Resources.alarm_clock">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Pag_asa_Mutti_Purpose_Cooperative.My.Resources.Resources.alarm_clock__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Pag_asa_Mutti_Purpose_Cooperative.My.Resources.Resources.angle_small_down">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -47,7 +72,17 @@ Pag-asa Mutti-Purpose Cooperative
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Pag_asa_Mutti_Purpose_Cooperative.My.Resources.Resources.broom">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Pag_asa_Mutti_Purpose_Cooperative.My.Resources.Resources.dollar">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Pag_asa_Mutti_Purpose_Cooperative.My.Resources.Resources.edit">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -87,6 +122,11 @@ Pag-asa Mutti-Purpose Cooperative
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Pag_asa_Mutti_Purpose_Cooperative.My.Resources.Resources.map_marker_question">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Pag_asa_Mutti_Purpose_Cooperative.My.Resources.Resources.menu_dots_vertical">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -112,6 +152,16 @@ Pag-asa Mutti-Purpose Cooperative
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Pag_asa_Mutti_Purpose_Cooperative.My.Resources.Resources.save">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Pag_asa_Mutti_Purpose_Cooperative.My.Resources.Resources.save1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Pag_asa_Mutti_Purpose_Cooperative.My.Resources.Resources.search__1_">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -128,6 +178,11 @@ Pag-asa Mutti-Purpose Cooperative
 </summary>
 </member>
 <member name="P:Pag_asa_Mutti_Purpose_Cooperative.My.Resources.Resources.time_past">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Pag_asa_Mutti_Purpose_Cooperative.My.Resources.Resources.user">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

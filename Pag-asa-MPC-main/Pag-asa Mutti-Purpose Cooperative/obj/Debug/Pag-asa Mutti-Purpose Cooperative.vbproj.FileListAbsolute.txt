@@ -132,3 +132,7 @@ C:\Users\Mr.Lafitte\Desktop\Pag-asa-MPC-main\Pag-asa-MPC-main\Pag-asa Mutti-Purp
 C:\Users\Mr.Lafitte\Desktop\Pag-asa-MPC-main\Pag-asa-MPC-main\Pag-asa Mutti-Purpose Cooperative\obj\Debug\Pag_asa_Mutti_Purpose_Cooperative.USRCRTLMEMBERGIFT.resources
 C:\Users\Mr.Lafitte\Desktop\Pag-asa-MPC-main\Pag-asa-MPC-main\Pag-asa Mutti-Purpose Cooperative\obj\Debug\Pag-asa Mutti-Purpose Cooperative.exe.config
 C:\Users\Mr.Lafitte\Desktop\Pag-asa-MPC-main\Pag-asa-MPC-main\Pag-asa Mutti-Purpose Cooperative\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
+C:\Users\Mr.Lafitte\Desktop\Pag-asa-MPC-main\Pag-asa-MPC-main\Pag-asa Mutti-Purpose Cooperative\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.dll
+C:\Users\Mr.Lafitte\Desktop\Pag-asa-MPC-main\Pag-asa-MPC-main\Pag-asa Mutti-Purpose Cooperative\obj\Debug\Pag_asa_Mutti_Purpose_Cooperative.UserManagement.resources
+C:\Users\Mr.Lafitte\Desktop\Pag-asa-MPC-main\Pag-asa-MPC-main\Pag-asa Mutti-Purpose Cooperative\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.dll
+C:\Users\Mr.Lafitte\Desktop\Pag-asa-MPC-main\Pag-asa-MPC-main\Pag-asa Mutti-Purpose Cooperative\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.xml

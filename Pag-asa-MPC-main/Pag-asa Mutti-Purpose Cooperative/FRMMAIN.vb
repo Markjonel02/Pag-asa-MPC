@@ -27,18 +27,6 @@
 
 
 
-    Private Sub BTNMEMBER_Click(sender As Object, e As EventArgs) Handles BTNMEMBER.Click
-        Dim ctrlmem As Integer
-        For ctrlmem = 0 To 0
-            PNLMAINDOCKER.Controls.RemoveAt(ctrlmem)
-        Next
-        Dim D As New USRCTRLMEMBERSHIPAPP()
-        D.Parent = PNLMAINDOCKER
-        D.Show()
-        D.Dock = DockStyle.Fill
-
-    End Sub
-
 
     Private Sub BTNDASHBOARD_Click(sender As Object, e As EventArgs) Handles BTNDASHBOARD.Click
         'This will usrctrl to main panel 
@@ -105,5 +93,18 @@
         D.Dock = DockStyle.Fill
     End Sub
 
+    Private Sub BTNUSMNGT_Click(sender As Object, e As EventArgs) Handles BTNUSMNGT.Click
+        Dim ctrlmem As Integer
+        For ctrlmem = 0 To 0
+            PNLMAINDOCKER.Controls.RemoveAt(ctrlmem)
+        Next
+        Dim D As New UserManagement()
+        D.Parent = PNLMAINDOCKER
+        D.Show()
+        D.Dock = DockStyle.Fill
+    End Sub
 
+    Private Sub BunifuButton1_Click(sender As Object, e As EventArgs) Handles BTNABOUT.Click
+
+    End Sub
 End Class
